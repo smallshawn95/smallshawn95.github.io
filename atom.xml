@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>SmallShawn95&#39;s Home</title>
   
-  <subtitle>SmallShawn95 so weak</subtitle>
+  
   <link href="http://smallshawn95.github.io/atom.xml" rel="self"/>
   
   <link href="http://smallshawn95.github.io/"/>
-  <updated>2023-01-21T12:38:45.221Z</updated>
+  <updated>2023-02-10T02:04:11.814Z</updated>
   <id>http://smallshawn95.github.io/</id>
   
   <author>
@@ -21,15 +21,15 @@
     <link href="http://smallshawn95.github.io/2023/01/hello-hexo/"/>
     <id>http://smallshawn95.github.io/2023/01/hello-hexo/</id>
     <published>2023-01-20T09:00:00.000Z</published>
-    <updated>2023-01-21T12:38:45.221Z</updated>
+    <updated>2023-02-10T02:04:11.814Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="我的第一篇文章的標題"><a href="#我的第一篇文章的標題" class="headerlink" title="我的第一篇文章的標題"></a>我的第一篇文章的標題</h1><p>Hello, world!</p><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    cout &lt;&lt; <span class="string">&quot;Hello, world!&quot;</span> &lt;&lt; endl;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="string">&quot;Hello, world!&quot;</span>)</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<h1 id="我的第一篇文章的標題"><a href="#我的第一篇文章的標題" class="headerlink" title="我的第一篇文章的標題"></a>我的第一篇文章的標題</h1><p>Hello, world!</p><h2 id="Second-Title"><a href="#Second-Title" class="headerlink" title="Second Title"></a>Second Title</h2><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    cout &lt;&lt; <span class="string">&quot;Hello, world!&quot;</span> &lt;&lt; endl;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="string">&quot;Hello, world!&quot;</span>)</span><br></pre></td></tr></table></figure>]]></content>
     
     
       
       
     <summary type="html">&lt;h1 id=&quot;我的第一篇文章的標題&quot;&gt;&lt;a href=&quot;#我的第一篇文章的標題&quot; class=&quot;headerlink&quot; title=&quot;我的第一篇文章的標題&quot;&gt;&lt;/a&gt;我的第一篇文章的標題&lt;/h1&gt;&lt;p&gt;Hello, world!&lt;/p&gt;
-&lt;figure class=&quot;highl</summary>
+&lt;h2 id=&quot;Second-Title</summary>
       
     
     
