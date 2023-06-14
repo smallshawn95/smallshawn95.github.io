@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>SmallShawn95&#39;s Home</title>
+  
+  
+  <link href="http://smallshawn95.github.io/atom.xml" rel="self"/>
+  
+  <link href="http://smallshawn95.github.io/"/>
+  <updated>2023-06-13T15:28:39.744Z</updated>
+  <id>http://smallshawn95.github.io/</id>
+  
+  <author>
+    <name>SmallShawn95</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>ツールマン - 概述</title>
+    <link href="http://smallshawn95.github.io/2023/06/%E3%83%84%E3%83%BC%E3%83%AB%E3%83%9E%E3%83%B3/"/>
+    <id>http://smallshawn95.github.io/2023/06/%E3%83%84%E3%83%BC%E3%83%AB%E3%83%9E%E3%83%B3/</id>
+    <published>2023-06-13T02:00:00.000Z</published>
+    <updated>2023-06-13T15:28:39.744Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hello, world!<br>It’s an honor to have met you.<br>I am a discord bot, my name is ツールマン.<br>Welcome to invite me to your discord server!</p><h1 id="📌-特色介紹"><a href="#📌-特色介紹" class="headerlink" title="📌 特色介紹"></a>📌 特色介紹</h1><ul><li>所有功能完全免費，無需任何付費和訂閱</li><li>全面使用斜線指令，使用指令更加方便和直觀</li><li>新穎圖片庫功能，讓你跨伺服器也能輕鬆分享圖片</li><li>十大種類，接近一百個指令，等著你來探索和挖掘</li><li>指令持續增加中，歡迎喜歡嘗鮮的人邀回去研究</li></ul><h1 id="📌-開始使用"><a href="#📌-開始使用" class="headerlink" title="📌 開始使用"></a>📌 開始使用</h1><p>&#x2F;help，使用每個 Discord Bot 的第一步！</p><h1 id="📌-相關資源"><a href="#📌-相關資源" class="headerlink" title="📌 相關資源"></a>📌 相關資源</h1><a class="btn-beautify blue outline larger" href="https://smallshawn95.github.io/2023/06/ツールマン/"   title="官方文檔"><i class="fa-solid fa-paperclip"></i><span>官方文檔</span></a><a class="btn-beautify blue outline larger" href="https://discord.com/oauth2/authorize?client_id=1086121536081121391&permissions=140057635904&scope=bot"   title="邀請機器人"><i class="fa-solid fa-paperclip"></i><span>邀請機器人</span></a><a class="btn-beautify blue outline larger" href="https://discord.gg/Jtd3eVrFJs"   title="支援伺服器"><i class="fa-solid fa-paperclip"></i><span>支援伺服器</span></a><a class="btn-beautify blue outline larger" href="https://github.com/smallshawn95/Python-Discord-Bot-Teach.git"   title="Python Discord Bot 教學系列"><i class="fa-solid fa-paperclip"></i><span>Python Discord Bot 教學系列</span></a>]]></content>
+    
+    
+    <summary type="html">Hello, world! It&#39;s an honor to have met you. I am a discord bot, my name is ツールマン. Welcome to invite me to your discord server!</summary>
+    
+    
+    
+    <category term="ツールマン" scheme="http://smallshawn95.github.io/categories/%E3%83%84%E3%83%BC%E3%83%AB%E3%83%9E%E3%83%B3/"/>
+    
+    
+    <category term="Discord Bot" scheme="http://smallshawn95.github.io/tags/Discord-Bot/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello Hexo</title>
+    <link href="http://smallshawn95.github.io/2023/01/hello-hexo/"/>
+    <id>http://smallshawn95.github.io/2023/01/hello-hexo/</id>
+    <published>2023-01-20T09:00:00.000Z</published>
+    <updated>2023-06-13T05:42:24.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="我的第一篇文章的標題"><a href="#我的第一篇文章的標題" class="headerlink" title="我的第一篇文章的標題"></a>我的第一篇文章的標題</h1><p>Hello, world!</p><h2 id="Second-Title"><a href="#Second-Title" class="headerlink" title="Second Title"></a>Second Title</h2><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    cout &lt;&lt; <span class="string">&quot;Hello, world!&quot;</span> &lt;&lt; endl;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="string">&quot;Hello, world!&quot;</span>)</span><br></pre></td></tr></table></figure><h3 id="Note"><a href="#Note" class="headerlink" title="Note"></a>Note</h3><ul><li>class: default&#x2F;primary&#x2F;success&#x2F;info&#x2F;warning&#x2F;danger</li><li>no-icon: no-icon</li><li>style: simple&#x2F;modern&#x2F;flat&#x2F;disabled</li></ul><div class="note [class] [no-icon] [style] flat"><p>Any content (support inline tags too.io).</p></div><figure class="highlight md"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% note [class] [no-icon] [style] %&#125;</span><br><span class="line">Any content (support inline tags too.io).</span><br><span class="line">&#123;% endnote %&#125;</span><br></pre></td></tr></table></figure><ul><li>color: default&#x2F;blue&#x2F;pink&#x2F;red&#x2F;purple&#x2F;orange&#x2F;green</li><li>icon: fontawesome icon&#x2F;no-icon</li><li>style: simple&#x2F;modern&#x2F;flat&#x2F;disabled</li></ul><figure class="highlight md"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% note [color] [icon] [style] %&#125;</span><br><span class="line">Any content (support inline tags too.io).</span><br><span class="line">&#123;% endnote %&#125;</span><br></pre></td></tr></table></figure><div class="note [color] [icon] [style] flat"><p>Any content (support inline tags too.io).</p></div><h3 id="Tab"><a href="#Tab" class="headerlink" title="Tab"></a>Tab</h3><div class="tabs" id="tab"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#tab-1">C</button></li><li class="tab"><button type="button" data-href="#tab-2"><i class="fa-brands fa-python"></i>Python</button></li><li class="tab"><button type="button" data-href="#tab-3"><i class="fa-solid fa-code" style="text-align: center;"></i></button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="tab-1"><p><strong>This is Tab 1.</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="tab-2"><p><strong>This is Tab 2.</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="tab-3"><p><strong>This is Tab 3.</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div><h3 id="Button"><a href="#Button" class="headerlink" title="Button"></a>Button</h3><ul><li>url: 鏈接</li><li>text: 按鈕文字</li><li>icon: 圖標</li><li>color: 按鈕背景顔色(style) 按鈕字體和邊框顔色(outline) default&#x2F;blue&#x2F;pink&#x2F;red&#x2F;purple&#x2F;orange&#x2F;green</li><li>style: 預設實心 outline&#x2F;留空</li><li>layout: 預設inline block&#x2F;留空</li><li>position: layout&#x3D;block 預設left center&#x2F;right&#x2F;留空</li><li>size: larger&#x2F;留空</li></ul><figure class="highlight md"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% btn [url],[text],[icon],[color] [style] [layout] [position] [size] %&#125;</span><br></pre></td></tr></table></figure><a class="btn-beautify larger" href="https://butterfly.js.org/"   title="Butterfly"><i class="far fa-hand-point-right"></i><span>Butterfly</span></a><a class="btn-beautify blue larger" href="https://butterfly.js.org/"   title="Butterfly"><i class="far fa-hand-point-right"></i><span>Butterfly</span></a><a class="btn-beautify pink larger" href="https://butterfly.js.org/"   title="Butterfly"><i class="far fa-hand-point-right"></i><span>Butterfly</span></a>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;我的第一篇文章的標題&quot;&gt;&lt;a href=&quot;#我的第一篇文章的標題&quot; class=&quot;headerlink&quot; title=&quot;我的第一篇文章的標題&quot;&gt;&lt;/a&gt;我的第一篇文章的標題&lt;/h1&gt;&lt;p&gt;Hello, world!&lt;/p&gt;
+&lt;h2 id=&quot;Second-Title</summary>
+      
+    
+    
+    
+    
+    <category term="Hello" scheme="http://smallshawn95.github.io/tags/Hello/"/>
+    
+  </entry>
+  
+</feed>
