@@ -6,7 +6,7 @@
   <link href="http://smallshawn95.github.io/atom.xml" rel="self"/>
   
   <link href="http://smallshawn95.github.io/"/>
-  <updated>2023-06-23T18:51:04.886Z</updated>
+  <updated>2023-06-24T08:17:47.600Z</updated>
   <id>http://smallshawn95.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>ツールマン - Code 指令</title>
+    <link href="http://smallshawn95.github.io/%E3%83%84%E3%83%BC%E3%83%AB%E3%83%9E%E3%83%B3/command/code/"/>
+    <id>http://smallshawn95.github.io/%E3%83%84%E3%83%BC%E3%83%AB%E3%83%9E%E3%83%B3/command/code/</id>
+    <published>2023-06-24T07:50:00.000Z</published>
+    <updated>2023-06-24T08:17:47.600Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="x2F-code-hello-world"><a href="#x2F-code-hello-world" class="headerlink" title="&#x2F;code hello_world"></a>&#x2F;code hello_world</h1><p>查看各個程式語言的第一個程式碼</p><p><img src="https://i.imgur.com/qyTeYXh.png" alt="/code hello_world"></p><h1 id="x2F-code-screenshot-main"><a href="#x2F-code-screenshot-main" class="headerlink" title="&#x2F;code screenshot main"></a>&#x2F;code screenshot main</h1><p>程式碼截圖工具，明亮、黑暗風格需擇一</p><table><thead><tr><th align="center">參數名</th><th align="center">性質</th><th align="center">敘述</th></tr></thead><tbody><tr><td align="center">light_style</td><td align="center">可選參數</td><td align="center">輸入明亮風格</td></tr><tr><td align="center">dark_style</td><td align="center">可選參數</td><td align="center">輸入黑暗風格</td></tr><tr><td align="center">font</td><td align="center">可選參數</td><td align="center">選擇字體</td></tr></tbody></table><p><img src="https://i.imgur.com/CWtxCgi.png" alt="/code screenshot main"></p><h1 id="x2F-code-screenshot-style"><a href="#x2F-code-screenshot-style" class="headerlink" title="&#x2F;code screenshot style"></a>&#x2F;code screenshot style</h1><p>程式碼截圖工具風格</p><p><img src="https://i.imgur.com/9Tn7WQ9.png" alt="/code screenshot style"></p><h1 id="x2F-code-screenshot-language"><a href="#x2F-code-screenshot-language" class="headerlink" title="&#x2F;code screenshot language"></a>&#x2F;code screenshot language</h1><p>程式碼截圖工具支援語言</p><p><img src="https://i.imgur.com/puP7imJ.png" alt="/code screenshot language"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;x2F-code-hello-world&quot;&gt;&lt;a href=&quot;#x2F-code-hello-world&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x2F;code hello_world&quot;&gt;&lt;/a&gt;&amp;#x2F;code hello_world&lt;/</summary>
+      
+    
+    
+    
+    <category term="ツールマン" scheme="http://smallshawn95.github.io/categories/%E3%83%84%E3%83%BC%E3%83%AB%E3%83%9E%E3%83%B3/"/>
+    
+    
+    <category term="Discord Bot" scheme="http://smallshawn95.github.io/tags/Discord-Bot/"/>
+    
+  </entry>
   
   <entry>
     <title>ツールマン - Color 指令</title>
@@ -45,7 +69,7 @@
     <link href="http://smallshawn95.github.io/%E3%83%84%E3%83%BC%E3%83%AB%E3%83%9E%E3%83%B3/command/date/"/>
     <id>http://smallshawn95.github.io/%E3%83%84%E3%83%BC%E3%83%AB%E3%83%9E%E3%83%B3/command/date/</id>
     <published>2023-06-14T14:50:00.000Z</published>
-    <updated>2023-06-14T15:56:02.000Z</updated>
+    <updated>2023-06-24T07:48:15.978Z</updated>
     
     <content type="html"><![CDATA[<h1 id="x2F-date-today"><a href="#x2F-date-today" class="headerlink" title="&#x2F;date today"></a>&#x2F;date today</h1><h1 id="x2F-date-weekday-english"><a href="#x2F-date-weekday-english" class="headerlink" title="&#x2F;date weekday_english"></a>&#x2F;date weekday_english</h1><h1 id="x2F-date-weekday-english-abbr"><a href="#x2F-date-weekday-english-abbr" class="headerlink" title="&#x2F;date weekday_english_abbr"></a>&#x2F;date weekday_english_abbr</h1><h1 id="x2F-date-month-english"><a href="#x2F-date-month-english" class="headerlink" title="&#x2F;date month_english"></a>&#x2F;date month_english</h1><h1 id="x2F-date-month-english-abbr"><a href="#x2F-date-month-english-abbr" class="headerlink" title="&#x2F;date month_english_abbr"></a>&#x2F;date month_english_abbr</h1><h1 id="x2F-date-calendar-month"><a href="#x2F-date-calendar-month" class="headerlink" title="&#x2F;date calendar_month"></a>&#x2F;date calendar_month</h1><h1 id="x2F-date-show-birthday"><a href="#x2F-date-show-birthday" class="headerlink" title="&#x2F;date show_birthday"></a>&#x2F;date show_birthday</h1><h1 id="x2F-date-add-birthday"><a href="#x2F-date-add-birthday" class="headerlink" title="&#x2F;date add_birthday"></a>&#x2F;date add_birthday</h1><h1 id="x2F-date-remove-birthday"><a href="#x2F-date-remove-birthday" class="headerlink" title="&#x2F;date remove_birthday"></a>&#x2F;date remove_birthday</h1>]]></content>
     
@@ -69,7 +93,7 @@
     <link href="http://smallshawn95.github.io/%E3%83%84%E3%83%BC%E3%83%AB%E3%83%9E%E3%83%B3/command/game/"/>
     <id>http://smallshawn95.github.io/%E3%83%84%E3%83%BC%E3%83%AB%E3%83%9E%E3%83%B3/command/game/</id>
     <published>2023-06-14T14:50:00.000Z</published>
-    <updated>2023-06-14T15:56:22.000Z</updated>
+    <updated>2023-06-24T07:48:18.284Z</updated>
     
     <content type="html"><![CDATA[<h1 id="x2F-game-start"><a href="#x2F-game-start" class="headerlink" title="&#x2F;game start"></a>&#x2F;game start</h1><h1 id="x2F-game-player"><a href="#x2F-game-player" class="headerlink" title="&#x2F;game player"></a>&#x2F;game player</h1><h1 id="x2F-game-setting"><a href="#x2F-game-setting" class="headerlink" title="&#x2F;game setting"></a>&#x2F;game setting</h1><h1 id="x2F-game-2048"><a href="#x2F-game-2048" class="headerlink" title="&#x2F;game 2048"></a>&#x2F;game 2048</h1><h1 id="x2F-game-rank-2048-score"><a href="#x2F-game-rank-2048-score" class="headerlink" title="&#x2F;game rank 2048_score"></a>&#x2F;game rank 2048_score</h1><h1 id="x2F-game-rank-2048-time-all"><a href="#x2F-game-rank-2048-time-all" class="headerlink" title="&#x2F;game rank 2048_time_all"></a>&#x2F;game rank 2048_time_all</h1><h1 id="x2F-game-rank-2048-time"><a href="#x2F-game-rank-2048-time" class="headerlink" title="&#x2F;game rank 2048_time"></a>&#x2F;game rank 2048_time</h1><h1 id="x2F-game-rank-2048-time-all-1"><a href="#x2F-game-rank-2048-time-all-1" class="headerlink" title="&#x2F;game rank 2048_time_all"></a>&#x2F;game rank 2048_time_all</h1>]]></content>
     
@@ -93,7 +117,7 @@
     <link href="http://smallshawn95.github.io/%E3%83%84%E3%83%BC%E3%83%AB%E3%83%9E%E3%83%B3/command/image/"/>
     <id>http://smallshawn95.github.io/%E3%83%84%E3%83%BC%E3%83%AB%E3%83%9E%E3%83%B3/command/image/</id>
     <published>2023-06-14T14:50:00.000Z</published>
-    <updated>2023-06-14T15:57:18.000Z</updated>
+    <updated>2023-06-24T07:48:20.289Z</updated>
     
     <content type="html"><![CDATA[<h1 id="x2F-image-material"><a href="#x2F-image-material" class="headerlink" title="&#x2F;image material"></a>&#x2F;image material</h1><h1 id="x2F-image-save"><a href="#x2F-image-save" class="headerlink" title="&#x2F;image save"></a>&#x2F;image save</h1><h1 id="x2F-image-delete"><a href="#x2F-image-delete" class="headerlink" title="&#x2F;image delete"></a>&#x2F;image delete</h1><h1 id="x2F-image-show"><a href="#x2F-image-show" class="headerlink" title="&#x2F;image show"></a>&#x2F;image show</h1><h1 id="x2F-image-library"><a href="#x2F-image-library" class="headerlink" title="&#x2F;image library"></a>&#x2F;image library</h1><h1 id="x2F-image-face-detection"><a href="#x2F-image-face-detection" class="headerlink" title="&#x2F;image face_detection"></a>&#x2F;image face_detection</h1>]]></content>
     
@@ -113,35 +137,11 @@
   </entry>
   
   <entry>
-    <title>ツールマン - Invoice 指令</title>
-    <link href="http://smallshawn95.github.io/%E3%83%84%E3%83%BC%E3%83%AB%E3%83%9E%E3%83%B3/command/invoice/"/>
-    <id>http://smallshawn95.github.io/%E3%83%84%E3%83%BC%E3%83%AB%E3%83%9E%E3%83%B3/command/invoice/</id>
-    <published>2023-06-14T14:50:00.000Z</published>
-    <updated>2023-06-14T16:02:18.000Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="x2F-invoice-number"><a href="#x2F-invoice-number" class="headerlink" title="&#x2F;invoice number"></a>&#x2F;invoice number</h1><p>查看發票中獎號碼</p><p><img src="https://i.imgur.com/Zk4txcf.png" alt="/invoice number"></p><h1 id="x2F-invoice-check-number"><a href="#x2F-invoice-check-number" class="headerlink" title="&#x2F;invoice check number"></a>&#x2F;invoice check <font color=#87cefa>number</font></h1><p>兌獎發票工具，輸入發票號碼可以進行自動兌獎</p><table><thead><tr><th align="center">參數名</th><th align="center">性質</th><th align="center">敘述</th></tr></thead><tbody><tr><td align="center">number</td><td align="center">必要參數</td><td align="center">輸入發票號碼</td></tr></tbody></table><p><img src="https://i.imgur.com/4jd9v91.png" alt="/invoice check"></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;x2F-invoice-number&quot;&gt;&lt;a href=&quot;#x2F-invoice-number&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x2F;invoice number&quot;&gt;&lt;/a&gt;&amp;#x2F;invoice number&lt;/h1&gt;&lt;p&gt;查看</summary>
-      
-    
-    
-    
-    <category term="ツールマン" scheme="http://smallshawn95.github.io/categories/%E3%83%84%E3%83%BC%E3%83%AB%E3%83%9E%E3%83%B3/"/>
-    
-    
-    <category term="Discord Bot" scheme="http://smallshawn95.github.io/tags/Discord-Bot/"/>
-    
-  </entry>
-  
-  <entry>
     <title>ツールマン - Inform 指令</title>
     <link href="http://smallshawn95.github.io/%E3%83%84%E3%83%BC%E3%83%AB%E3%83%9E%E3%83%B3/command/inform/"/>
     <id>http://smallshawn95.github.io/%E3%83%84%E3%83%BC%E3%83%AB%E3%83%9E%E3%83%B3/command/inform/</id>
     <published>2023-06-14T14:50:00.000Z</published>
-    <updated>2023-06-14T15:57:40.000Z</updated>
+    <updated>2023-06-24T07:48:22.968Z</updated>
     
     <content type="html"><![CDATA[<h1 id="x2F-inform-birthday-enable"><a href="#x2F-inform-birthday-enable" class="headerlink" title="&#x2F;inform birthday enable"></a>&#x2F;inform birthday enable</h1><h1 id="x2F-inform-birthday-disenable"><a href="#x2F-inform-birthday-disenable" class="headerlink" title="&#x2F;inform birthday disenable"></a>&#x2F;inform birthday disenable</h1><h1 id="x2F-inform-gasoline-enable"><a href="#x2F-inform-gasoline-enable" class="headerlink" title="&#x2F;inform gasoline enable"></a>&#x2F;inform gasoline enable</h1><h1 id="x2F-inform-gasoline-disenable"><a href="#x2F-inform-gasoline-disenable" class="headerlink" title="&#x2F;inform gasoline disenable"></a>&#x2F;inform gasoline disenable</h1><h1 id="x2F-inform-twelve-midnight-enable"><a href="#x2F-inform-twelve-midnight-enable" class="headerlink" title="&#x2F;inform twelve_midnight enable"></a>&#x2F;inform twelve_midnight enable</h1><h1 id="x2F-inform-twelve-midnight-disenable"><a href="#x2F-inform-twelve-midnight-disenable" class="headerlink" title="&#x2F;inform twelve_midnight disenable"></a>&#x2F;inform twelve_midnight disenable</h1>]]></content>
     
@@ -161,18 +161,18 @@
   </entry>
   
   <entry>
-    <title>ツールマン - Other 指令</title>
-    <link href="http://smallshawn95.github.io/%E3%83%84%E3%83%BC%E3%83%AB%E3%83%9E%E3%83%B3/command/other/"/>
-    <id>http://smallshawn95.github.io/%E3%83%84%E3%83%BC%E3%83%AB%E3%83%9E%E3%83%B3/command/other/</id>
+    <title>ツールマン - Invoice 指令</title>
+    <link href="http://smallshawn95.github.io/%E3%83%84%E3%83%BC%E3%83%AB%E3%83%9E%E3%83%B3/command/invoice/"/>
+    <id>http://smallshawn95.github.io/%E3%83%84%E3%83%BC%E3%83%AB%E3%83%9E%E3%83%B3/command/invoice/</id>
     <published>2023-06-14T14:50:00.000Z</published>
-    <updated>2023-06-14T16:03:08.000Z</updated>
+    <updated>2023-06-24T07:48:25.069Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="x2F-other-avatar"><a href="#x2F-other-avatar" class="headerlink" title="&#x2F;other avatar"></a>&#x2F;other avatar</h1><h1 id="x2F-other-pr"><a href="#x2F-other-pr" class="headerlink" title="&#x2F;other pr"></a>&#x2F;other pr</h1><h1 id="x2F-other-choice"><a href="#x2F-other-choice" class="headerlink" title="&#x2F;other choice"></a>&#x2F;other choice</h1><h1 id="x2F-other-think"><a href="#x2F-other-think" class="headerlink" title="&#x2F;other think"></a>&#x2F;other think</h1><h1 id="x2F-other-random"><a href="#x2F-other-random" class="headerlink" title="&#x2F;other random"></a>&#x2F;other random</h1><h1 id="x2F-other-word-count"><a href="#x2F-other-word-count" class="headerlink" title="&#x2F;other word_count"></a>&#x2F;other word_count</h1><h1 id="x2F-other-code"><a href="#x2F-other-code" class="headerlink" title="&#x2F;other code"></a>&#x2F;other code</h1><h1 id="x2F-other-taiwan-railway-bento"><a href="#x2F-other-taiwan-railway-bento" class="headerlink" title="&#x2F;other taiwan_railway_bento"></a>&#x2F;other taiwan_railway_bento</h1>]]></content>
+    <content type="html"><![CDATA[<h1 id="x2F-invoice-number"><a href="#x2F-invoice-number" class="headerlink" title="&#x2F;invoice number"></a>&#x2F;invoice number</h1><p>查看發票中獎號碼</p><p><img src="https://i.imgur.com/Zk4txcf.png" alt="/invoice number"></p><h1 id="x2F-invoice-check-number"><a href="#x2F-invoice-check-number" class="headerlink" title="&#x2F;invoice check number"></a>&#x2F;invoice check <font color=#87cefa>number</font></h1><p>兌獎發票工具，輸入發票號碼可以進行自動兌獎</p><table><thead><tr><th align="center">參數名</th><th align="center">性質</th><th align="center">敘述</th></tr></thead><tbody><tr><td align="center">number</td><td align="center">必要參數</td><td align="center">輸入發票號碼</td></tr></tbody></table><p><img src="https://i.imgur.com/4jd9v91.png" alt="/invoice check"></p>]]></content>
     
     
       
       
-    <summary type="html">&lt;h1 id=&quot;x2F-other-avatar&quot;&gt;&lt;a href=&quot;#x2F-other-avatar&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x2F;other avatar&quot;&gt;&lt;/a&gt;&amp;#x2F;other avatar&lt;/h1&gt;&lt;h1 id=&quot;x2F-o</summary>
+    <summary type="html">&lt;h1 id=&quot;x2F-invoice-number&quot;&gt;&lt;a href=&quot;#x2F-invoice-number&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x2F;invoice number&quot;&gt;&lt;/a&gt;&amp;#x2F;invoice number&lt;/h1&gt;&lt;p&gt;查看</summary>
       
     
     
@@ -189,14 +189,14 @@
     <link href="http://smallshawn95.github.io/%E3%83%84%E3%83%BC%E3%83%AB%E3%83%9E%E3%83%B3/command/qrcode/"/>
     <id>http://smallshawn95.github.io/%E3%83%84%E3%83%BC%E3%83%AB%E3%83%9E%E3%83%B3/command/qrcode/</id>
     <published>2023-06-14T14:50:00.000Z</published>
-    <updated>2023-06-14T16:03:28.000Z</updated>
+    <updated>2023-06-24T07:45:42.777Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="x2F-qrcode-simple"><a href="#x2F-qrcode-simple" class="headerlink" title="&#x2F;qrcode simple"></a>&#x2F;qrcode simple</h1><h1 id="x2F-qrcode-custom"><a href="#x2F-qrcode-custom" class="headerlink" title="&#x2F;qrcode custom"></a>&#x2F;qrcode custom</h1><h1 id="x2F-qrcode-image"><a href="#x2F-qrcode-image" class="headerlink" title="&#x2F;qrcode image"></a>&#x2F;qrcode image</h1><h1 id="x2F-qrcode-read"><a href="#x2F-qrcode-read" class="headerlink" title="&#x2F;qrcode read"></a>&#x2F;qrcode read</h1>]]></content>
+    <content type="html"><![CDATA[<h1 id="x2F-qrcode-custom-color"><a href="#x2F-qrcode-custom-color" class="headerlink" title="&#x2F;qrcode custom_color"></a>&#x2F;qrcode custom_color</h1><p>製作出一張獨一無二的 QRCode</p><table><thead><tr><th align="center">參數名</th><th align="center">性質</th><th align="center">敘述</th></tr></thead><tbody><tr><td align="center">url</td><td align="center">必要參數</td><td align="center">輸入網址</td></tr><tr><td align="center">shape</td><td align="center">可選參數</td><td align="center">選擇形狀樣式</td></tr><tr><td align="center">style</td><td align="center">可選參數</td><td align="center">選擇顏色樣式</td></tr><tr><td align="center">background</td><td align="center">可選參數</td><td align="center">輸入背景顏色，使用十六進位制(例：000000、#FFFFFF)</td></tr><tr><td align="center">color_2</td><td align="center">可選參數</td><td align="center">輸入第一種顏色，使用十六進位制(例：000000、#FFFFFF)</td></tr><tr><td align="center">color_2</td><td align="center">可選參數</td><td align="center">輸入第二種顏色，使用十六進位制(例：000000、#FFFFFF)</td></tr><tr><td align="center">logo_url</td><td align="center">可選參數</td><td align="center">輸入中間圖片連結</td></tr></tbody></table><p><img src="https://i.imgur.com/OyQhfb4.png" alt="/qrcode custom_color"></p><h1 id="x2F-qrcode-background-image"><a href="#x2F-qrcode-background-image" class="headerlink" title="&#x2F;qrcode background_image"></a>&#x2F;qrcode background_image</h1><p>製作出一張有背景圖片的 QRCode</p><table><thead><tr><th align="center">參數名</th><th align="center">性質</th><th align="center">敘述</th></tr></thead><tbody><tr><td align="center">url</td><td align="center">必要參數</td><td align="center">輸入網址</td></tr><tr><td align="center">image_url</td><td align="center">必要參數</td><td align="center">輸入背景圖片的連結</td></tr><tr><td align="center">extension</td><td align="center">必要參數</td><td align="center">選擇背景圖片的圖片種類</td></tr><tr><td align="center">color</td><td align="center">必要參數</td><td align="center">選擇背景圖片是黑白還是彩色</td></tr></tbody></table><p><img src="https://i.imgur.com/0BN9zdh.png" alt="/qrcode background_image"></p><h1 id="x2F-qrcode-read"><a href="#x2F-qrcode-read" class="headerlink" title="&#x2F;qrcode read"></a>&#x2F;qrcode read</h1><p>使用指令，上傳一張 QRCode 即可掃描出其中的內容</p><p><img src="https://i.imgur.com/35mUGAH.png" alt="/qrcode read"></p>]]></content>
     
     
       
       
-    <summary type="html">&lt;h1 id=&quot;x2F-qrcode-simple&quot;&gt;&lt;a href=&quot;#x2F-qrcode-simple&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x2F;qrcode simple&quot;&gt;&lt;/a&gt;&amp;#x2F;qrcode simple&lt;/h1&gt;&lt;h1 id=&quot;x</summary>
+    <summary type="html">&lt;h1 id=&quot;x2F-qrcode-custom-color&quot;&gt;&lt;a href=&quot;#x2F-qrcode-custom-color&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x2F;qrcode custom_color&quot;&gt;&lt;/a&gt;&amp;#x2F;qrcode cu</summary>
       
     
     
@@ -234,11 +234,35 @@
   </entry>
   
   <entry>
+    <title>ツールマン - Other 指令</title>
+    <link href="http://smallshawn95.github.io/%E3%83%84%E3%83%BC%E3%83%AB%E3%83%9E%E3%83%B3/command/other/"/>
+    <id>http://smallshawn95.github.io/%E3%83%84%E3%83%BC%E3%83%AB%E3%83%9E%E3%83%B3/command/other/</id>
+    <published>2023-06-14T14:50:00.000Z</published>
+    <updated>2023-06-24T07:51:03.414Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="x2F-other-avatar"><a href="#x2F-other-avatar" class="headerlink" title="&#x2F;other avatar"></a>&#x2F;other avatar</h1><h1 id="x2F-other-pr"><a href="#x2F-other-pr" class="headerlink" title="&#x2F;other pr"></a>&#x2F;other pr</h1><h1 id="x2F-other-choice"><a href="#x2F-other-choice" class="headerlink" title="&#x2F;other choice"></a>&#x2F;other choice</h1><h1 id="x2F-other-think"><a href="#x2F-other-think" class="headerlink" title="&#x2F;other think"></a>&#x2F;other think</h1><h1 id="x2F-other-random"><a href="#x2F-other-random" class="headerlink" title="&#x2F;other random"></a>&#x2F;other random</h1><h1 id="x2F-other-word-count"><a href="#x2F-other-word-count" class="headerlink" title="&#x2F;other word_count"></a>&#x2F;other word_count</h1><h1 id="x2F-other-taiwan-railway-bento"><a href="#x2F-other-taiwan-railway-bento" class="headerlink" title="&#x2F;other taiwan_railway_bento"></a>&#x2F;other taiwan_railway_bento</h1>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;x2F-other-avatar&quot;&gt;&lt;a href=&quot;#x2F-other-avatar&quot; class=&quot;headerlink&quot; title=&quot;&amp;#x2F;other avatar&quot;&gt;&lt;/a&gt;&amp;#x2F;other avatar&lt;/h1&gt;&lt;h1 id=&quot;x2F-o</summary>
+      
+    
+    
+    
+    <category term="ツールマン" scheme="http://smallshawn95.github.io/categories/%E3%83%84%E3%83%BC%E3%83%AB%E3%83%9E%E3%83%B3/"/>
+    
+    
+    <category term="Discord Bot" scheme="http://smallshawn95.github.io/tags/Discord-Bot/"/>
+    
+  </entry>
+  
+  <entry>
     <title>ツールマン - Bot 指令</title>
     <link href="http://smallshawn95.github.io/%E3%83%84%E3%83%BC%E3%83%AB%E3%83%9E%E3%83%B3/command/bot/"/>
     <id>http://smallshawn95.github.io/%E3%83%84%E3%83%BC%E3%83%AB%E3%83%9E%E3%83%B3/command/bot/</id>
     <published>2023-06-14T14:00:00.000Z</published>
-    <updated>2023-06-14T15:54:42.000Z</updated>
+    <updated>2023-06-24T07:48:14.170Z</updated>
     
     <content type="html"><![CDATA[<h1 id="x2F-bot-ping"><a href="#x2F-bot-ping" class="headerlink" title="&#x2F;bot ping"></a>&#x2F;bot ping</h1><p>Bot 和 Discord 伺服器之間的延遲時間</p><p><img src="https://i.imgur.com/QiJpFmo.png" alt="/bot ping"></p><h1 id="x2F-bot-test"><a href="#x2F-bot-test" class="headerlink" title="&#x2F;bot test"></a>&#x2F;bot test</h1><p>測試 Bot 目前是否正常運作</p><p><img src="https://i.imgur.com/lL476Bx.png" alt="/bot_test"></p><h1 id="x2F-bot-bug"><a href="#x2F-bot-bug" class="headerlink" title="&#x2F;bot bug"></a>&#x2F;bot bug</h1><p>回報 Bot 的錯誤問題，讓開發者能盡早得知並將其修復</p>]]></content>
     
@@ -262,9 +286,9 @@
     <link href="http://smallshawn95.github.io/%E3%83%84%E3%83%BC%E3%83%AB%E3%83%9E%E3%83%B3/home/"/>
     <id>http://smallshawn95.github.io/%E3%83%84%E3%83%BC%E3%83%AB%E3%83%9E%E3%83%B3/home/</id>
     <published>2023-06-13T02:00:00.000Z</published>
-    <updated>2023-06-15T01:44:12.000Z</updated>
+    <updated>2023-06-24T08:21:17.940Z</updated>
     
-    <content type="html"><![CDATA[<p>Hello, world!<br>It’s an honor to have met you.<br>I am a discord bot, my name is ツールマン.<br>Welcome to invite me to your discord server!</p><h1 id="📌-特色介紹"><a href="#📌-特色介紹" class="headerlink" title="📌 特色介紹"></a>📌 特色介紹</h1><ul><li>所有功能完全免費，無需任何付費和訂閱</li><li>全面使用斜線指令，使用指令更加方便和直觀</li><li>新穎圖片庫功能，讓你跨伺服器也能輕鬆分享圖片</li><li>十大種類，接近一百個指令，等著你來探索和挖掘</li><li>指令持續增加中，歡迎喜歡嘗鮮的人邀回去研究</li></ul><h1 id="📌-開始使用"><a href="#📌-開始使用" class="headerlink" title="📌 開始使用"></a>📌 開始使用</h1><p>&#x2F;help，使用每個 Discord Bot 的第一步！</p><h1 id="📌-指令分類"><a href="#📌-指令分類" class="headerlink" title="📌 指令分類"></a>📌 指令分類</h1><!-- default/blue/pink/red/purple/orange/green --><a class="btn-beautify default outline larger" href="http://smallshawn95.github.io/ツールマン/command/bot/"   title="Bot"><i class="fa-solid fa-code"></i><span>Bot</span></a><a class="btn-beautify pink outline larger" href="http://smallshawn95.github.io/ツールマン/command/color/"   title="Color"><i class="fa-solid fa-code"></i><span>Color</span></a><a class="btn-beautify green outline larger" href="http://smallshawn95.github.io/ツールマン/command/date/"   title="Date"><i class="fa-solid fa-code"></i><span>Date</span></a><a class="btn-beautify purple outline larger" href="http://smallshawn95.github.io/ツールマン/command/game/"   title="Game"><i class="fa-solid fa-code"></i><span>Game</span></a><a class="btn-beautify orange outline larger" href="http://smallshawn95.github.io/ツールマン/command/image/"   title="Image"><i class="fa-solid fa-code"></i><span>Image</span></a><a class="btn-beautify red outline larger" href="http://smallshawn95.github.io/ツールマン/command/inform/"   title="Inform"><i class="fa-solid fa-code"></i><span>Inform</span></a><a class="btn-beautify blue outline larger" href="http://smallshawn95.github.io/ツールマン/command/invoice/"   title="Invoice"><i class="fa-solid fa-code"></i><span>Invoice</span></a><a class="btn-beautify pink outline larger" href="http://smallshawn95.github.io/ツールマン/command/qrcode/"   title="QRCode"><i class="fa-solid fa-code"></i><span>QRCode</span></a><a class="btn-beautify green outline larger" href="http://smallshawn95.github.io/ツールマン/command/tool/"   title="Tool"><i class="fa-solid fa-code"></i><span>Tool</span></a><a class="btn-beautify default outline larger" href="http://smallshawn95.github.io/ツールマン/command/other/"   title="Other"><i class="fa-solid fa-code"></i><span>Other</span></a><h1 id="📌-相關資源"><a href="#📌-相關資源" class="headerlink" title="📌 相關資源"></a>📌 相關資源</h1><a class="btn-beautify blue outline larger" href="https://smallshawn95.github.io/2023/06/ツールマン/"   title="官方文檔"><i class="fa-solid fa-paperclip"></i><span>官方文檔</span></a><a class="btn-beautify blue outline larger" href="https://discord.com/oauth2/authorize?client_id=1086121536081121391&permissions=140057635904&scope=bot"   title="邀請機器人"><i class="fa-solid fa-paperclip"></i><span>邀請機器人</span></a><a class="btn-beautify blue outline larger" href="https://discord.gg/Jtd3eVrFJs"   title="支援伺服器"><i class="fa-solid fa-paperclip"></i><span>支援伺服器</span></a><a class="btn-beautify blue outline larger" href="https://github.com/smallshawn95/Python-Discord-Bot-Teach.git"   title="Python Discord Bot 教學系列"><i class="fa-solid fa-paperclip"></i><span>Python Discord Bot 教學系列</span></a>]]></content>
+    <content type="html"><![CDATA[<p>Hello, world!<br>It’s an honor to have met you.<br>I am a discord bot, my name is ツールマン.<br>Welcome to invite me to your discord server!</p><h1 id="📌-特色介紹"><a href="#📌-特色介紹" class="headerlink" title="📌 特色介紹"></a>📌 特色介紹</h1><ul><li>所有功能完全免費，無需任何付費和訂閱</li><li>全面使用斜線指令，使用指令更加方便和直觀</li><li>新穎圖片庫功能，讓你跨伺服器也能輕鬆分享圖片</li><li>十大種類，接近一百個指令，等著你來探索和挖掘</li><li>指令持續增加中，歡迎喜歡嘗鮮的人邀回去研究</li></ul><h1 id="📌-開始使用"><a href="#📌-開始使用" class="headerlink" title="📌 開始使用"></a>📌 開始使用</h1><p>&#x2F;help，使用每個 Discord Bot 的第一步！</p><h1 id="📌-指令分類"><a href="#📌-指令分類" class="headerlink" title="📌 指令分類"></a>📌 指令分類</h1><!-- default/blue/pink/red/purple/orange/green --><a class="btn-beautify default outline larger" href="http://smallshawn95.github.io/ツールマン/command/bot/"   title="Bot"><i class="fa-solid fa-code"></i><span>Bot</span></a><a class="btn-beautify pink outline larger" href="http://smallshawn95.github.io/ツールマン/command/code/"   title="Code"><i class="fa-solid fa-code"></i><span>Code</span></a><a class="btn-beautify green outline larger" href="http://smallshawn95.github.io/ツールマン/command/color/"   title="Color"><i class="fa-solid fa-code"></i><span>Color</span></a><a class="btn-beautify purple outline larger" href="http://smallshawn95.github.io/ツールマン/command/date/"   title="Date"><i class="fa-solid fa-code"></i><span>Date</span></a><a class="btn-beautify orange outline larger" href="http://smallshawn95.github.io/ツールマン/command/game/"   title="Game"><i class="fa-solid fa-code"></i><span>Game</span></a><a class="btn-beautify red outline larger" href="http://smallshawn95.github.io/ツールマン/command/image/"   title="Image"><i class="fa-solid fa-code"></i><span>Image</span></a><a class="btn-beautify blue outline larger" href="http://smallshawn95.github.io/ツールマン/command/inform/"   title="Inform"><i class="fa-solid fa-code"></i><span>Inform</span></a><a class="btn-beautify pink outline larger" href="http://smallshawn95.github.io/ツールマン/command/invoice/"   title="Invoice"><i class="fa-solid fa-code"></i><span>Invoice</span></a><a class="btn-beautify green outline larger" href="http://smallshawn95.github.io/ツールマン/command/qrcode/"   title="QRCode"><i class="fa-solid fa-code"></i><span>QRCode</span></a><a class="btn-beautify purple outline larger" href="http://smallshawn95.github.io/ツールマン/command/tool/"   title="Tool"><i class="fa-solid fa-code"></i><span>Tool</span></a><a class="btn-beautify default outline larger" href="http://smallshawn95.github.io/ツールマン/command/other/"   title="Other"><i class="fa-solid fa-code"></i><span>Other</span></a><h1 id="📌-相關資源"><a href="#📌-相關資源" class="headerlink" title="📌 相關資源"></a>📌 相關資源</h1><a class="btn-beautify blue outline larger" href="https://smallshawn95.github.io/2023/06/ツールマン/"   title="官方文檔"><i class="fa-solid fa-paperclip"></i><span>官方文檔</span></a><a class="btn-beautify blue outline larger" href="https://discord.com/oauth2/authorize?client_id=1086121536081121391&permissions=140057635904&scope=bot"   title="邀請機器人"><i class="fa-solid fa-paperclip"></i><span>邀請機器人</span></a><a class="btn-beautify blue outline larger" href="https://discord.gg/Jtd3eVrFJs"   title="支援伺服器"><i class="fa-solid fa-paperclip"></i><span>支援伺服器</span></a><a class="btn-beautify blue outline larger" href="https://github.com/smallshawn95/Python-Discord-Bot-Teach.git"   title="Python Discord Bot 教學系列"><i class="fa-solid fa-paperclip"></i><span>Python Discord Bot 教學系列</span></a>]]></content>
     
     
     <summary type="html">Hello, world! It&#39;s an honor to have met you. I am a discord bot, my name is ツールマン. Welcome to invite me to your discord server!</summary>
