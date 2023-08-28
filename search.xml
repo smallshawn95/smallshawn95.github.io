@@ -4,16 +4,16 @@
   
     
     <entry>
-      <title>ツールマン - Code 指令</title>
-      <link href="/%E3%83%84%E3%83%BC%E3%83%AB%E3%83%9E%E3%83%B3/command/code/"/>
-      <url>/%E3%83%84%E3%83%BC%E3%83%AB%E3%83%9E%E3%83%B3/command/code/</url>
+      <title>燒雞姬 - Code 指令</title>
+      <link href="/shao_ji_ji/command/code/"/>
+      <url>/shao_ji_ji/command/code/</url>
       
         <content type="html"><![CDATA[<h1 id="x2F-code-hello-world"><a href="#x2F-code-hello-world" class="headerlink" title="&#x2F;code hello_world"></a>&#x2F;code hello_world</h1><p>查看各個程式語言的第一個程式碼</p><p><img src="https://i.imgur.com/qyTeYXh.png" alt="/code hello_world"></p><h1 id="x2F-code-screenshot-main"><a href="#x2F-code-screenshot-main" class="headerlink" title="&#x2F;code screenshot main"></a>&#x2F;code screenshot main</h1><p>程式碼截圖工具，明亮、黑暗風格需擇一</p><table><thead><tr><th align="center">參數名</th><th align="center">性質</th><th align="center">敘述</th></tr></thead><tbody><tr><td align="center">light_style</td><td align="center">可選參數</td><td align="center">輸入明亮風格</td></tr><tr><td align="center">dark_style</td><td align="center">可選參數</td><td align="center">輸入黑暗風格</td></tr><tr><td align="center">font</td><td align="center">可選參數</td><td align="center">選擇字體</td></tr></tbody></table><p><img src="https://i.imgur.com/CWtxCgi.png" alt="/code screenshot main"></p><h1 id="x2F-code-screenshot-style"><a href="#x2F-code-screenshot-style" class="headerlink" title="&#x2F;code screenshot style"></a>&#x2F;code screenshot style</h1><p>程式碼截圖工具風格</p><p><img src="https://i.imgur.com/9Tn7WQ9.png" alt="/code screenshot style"></p><h1 id="x2F-code-screenshot-language"><a href="#x2F-code-screenshot-language" class="headerlink" title="&#x2F;code screenshot language"></a>&#x2F;code screenshot language</h1><p>程式碼截圖工具支援語言</p><p><img src="https://i.imgur.com/puP7imJ.png" alt="/code screenshot language"></p>]]></content>
       
       
       <categories>
           
-          <category> ツールマン </category>
+          <category> 燒雞姬 </category>
           
       </categories>
       
@@ -29,16 +29,16 @@
     
     
     <entry>
-      <title>ツールマン - Color 指令</title>
-      <link href="/%E3%83%84%E3%83%BC%E3%83%AB%E3%83%9E%E3%83%B3/command/color/"/>
-      <url>/%E3%83%84%E3%83%BC%E3%83%AB%E3%83%9E%E3%83%B3/command/color/</url>
+      <title>燒雞姬 - Color 指令</title>
+      <link href="/shao_ji_ji/command/color/"/>
+      <url>/shao_ji_ji/command/color/</url>
       
         <content type="html"><![CDATA[<h1 id="x2F-color-rgb-to-hex"><a href="#x2F-color-rgb-to-hex" class="headerlink" title="&#x2F;color rgb_to_hex"></a>&#x2F;color rgb_to_hex</h1><p>rgb數值轉換成十六進位制數值</p><table><thead><tr><th align="center">參數名</th><th align="center">性質</th><th align="center">敘述</th></tr></thead><tbody><tr><td align="center">r</td><td align="center">必要參數</td><td align="center">輸入紅色數值</td></tr><tr><td align="center">g</td><td align="center">必要參數</td><td align="center">輸入綠色數值</td></tr><tr><td align="center">b</td><td align="center">必要參數</td><td align="center">輸入藍色數值</td></tr></tbody></table><p><img src="https://i.imgur.com/QRSd7r7.png" alt="/color rgb_to_hex"></p><h1 id="x2F-color-hex-to-rgb"><a href="#x2F-color-hex-to-rgb" class="headerlink" title="&#x2F;color hex_to_rgb"></a>&#x2F;color hex_to_rgb</h1><p>十六進位制數值傳換成rgb數值</p><table><thead><tr><th align="center">參數名</th><th align="center">性質</th><th align="center">敘述</th></tr></thead><tbody><tr><td align="center">color</td><td align="center">必要參數</td><td align="center">輸入顏色十六進位制</td></tr></tbody></table><p><img src="https://i.imgur.com/9FMSiHp.png" alt="/color hex_to_rgb"></p><h1 id="x2F-color-rgb-solid-image"><a href="#x2F-color-rgb-solid-image" class="headerlink" title="&#x2F;color rgb_solid_image"></a>&#x2F;color rgb_solid_image</h1><p>不知道rgb數值的顏色樣子，輸入數值馬上生成顏色</p><table><thead><tr><th align="center">參數名</th><th align="center">性質</th><th align="center">敘述</th></tr></thead><tbody><tr><td align="center">r</td><td align="center">必要參數</td><td align="center">輸入紅色數值</td></tr><tr><td align="center">g</td><td align="center">必要參數</td><td align="center">輸入綠色數值</td></tr><tr><td align="center">b</td><td align="center">必要參數</td><td align="center">輸入藍色數值</td></tr><tr><td align="center">height</td><td align="center">可選參數</td><td align="center">輸入圖片高度</td></tr><tr><td align="center">width</td><td align="center">可選參數</td><td align="center">輸入圖片寬度</td></tr></tbody></table><p><img src="https://i.imgur.com/O4pkGQE.png" alt="/color rgb_solid_image"></p><h1 id="x2F-color-hex-solid-image"><a href="#x2F-color-hex-solid-image" class="headerlink" title="&#x2F;color hex_solid_image"></a>&#x2F;color hex_solid_image</h1><p>不知道十六進位制數值的顏色樣子，輸入數值馬上生成顏色</p><table><thead><tr><th align="center">參數名</th><th align="center">性質</th><th align="center">敘述</th></tr></thead><tbody><tr><td align="center">color</td><td align="center">必要參數</td><td align="center">輸入顏色十六進位制</td></tr><tr><td align="center">height</td><td align="center">可選參數</td><td align="center">輸入圖片高度</td></tr><tr><td align="center">width</td><td align="center">可選參數</td><td align="center">輸入圖片寬度</td></tr></tbody></table><p><img src="https://i.imgur.com/nNihilf.png" alt="/color hex_solid_image"></p><h1 id="x2F-color-random-solid-image"><a href="#x2F-color-random-solid-image" class="headerlink" title="&#x2F;color random_solid_image"></a>&#x2F;color random_solid_image</h1><p>不知道要用什麼顏色，隨機產生一款顏色作為參考</p><table><thead><tr><th align="center">參數名</th><th align="center">性質</th><th align="center">敘述</th></tr></thead><tbody><tr><td align="center">r</td><td align="center">可選參數</td><td align="center">輸入紅色數值</td></tr><tr><td align="center">g</td><td align="center">可選參數</td><td align="center">輸入綠色數值</td></tr><tr><td align="center">b</td><td align="center">可選參數</td><td align="center">輸入藍色數值</td></tr><tr><td align="center">height</td><td align="center">可選參數</td><td align="center">輸入圖片高度</td></tr><tr><td align="center">width</td><td align="center">可選參數</td><td align="center">輸入圖片寬度</td></tr></tbody></table><p><img src="https://i.imgur.com/kwNBQxA.png" alt="/color random_solid_image"></p>]]></content>
       
       
       <categories>
           
-          <category> ツールマン </category>
+          <category> 燒雞姬 </category>
           
       </categories>
       
@@ -54,16 +54,16 @@
     
     
     <entry>
-      <title>ツールマン - Date 指令</title>
-      <link href="/%E3%83%84%E3%83%BC%E3%83%AB%E3%83%9E%E3%83%B3/command/date/"/>
-      <url>/%E3%83%84%E3%83%BC%E3%83%AB%E3%83%9E%E3%83%B3/command/date/</url>
+      <title>燒雞姬 - Date 指令</title>
+      <link href="/shao_ji_ji/command/date/"/>
+      <url>/shao_ji_ji/command/date/</url>
       
         <content type="html"><![CDATA[<h1 id="x2F-date-today"><a href="#x2F-date-today" class="headerlink" title="&#x2F;date today"></a>&#x2F;date today</h1><h1 id="x2F-date-weekday-english"><a href="#x2F-date-weekday-english" class="headerlink" title="&#x2F;date weekday_english"></a>&#x2F;date weekday_english</h1><h1 id="x2F-date-weekday-english-abbr"><a href="#x2F-date-weekday-english-abbr" class="headerlink" title="&#x2F;date weekday_english_abbr"></a>&#x2F;date weekday_english_abbr</h1><h1 id="x2F-date-month-english"><a href="#x2F-date-month-english" class="headerlink" title="&#x2F;date month_english"></a>&#x2F;date month_english</h1><h1 id="x2F-date-month-english-abbr"><a href="#x2F-date-month-english-abbr" class="headerlink" title="&#x2F;date month_english_abbr"></a>&#x2F;date month_english_abbr</h1><h1 id="x2F-date-calendar-month"><a href="#x2F-date-calendar-month" class="headerlink" title="&#x2F;date calendar_month"></a>&#x2F;date calendar_month</h1><h1 id="x2F-date-show-birthday"><a href="#x2F-date-show-birthday" class="headerlink" title="&#x2F;date show_birthday"></a>&#x2F;date show_birthday</h1><h1 id="x2F-date-add-birthday"><a href="#x2F-date-add-birthday" class="headerlink" title="&#x2F;date add_birthday"></a>&#x2F;date add_birthday</h1><h1 id="x2F-date-remove-birthday"><a href="#x2F-date-remove-birthday" class="headerlink" title="&#x2F;date remove_birthday"></a>&#x2F;date remove_birthday</h1>]]></content>
       
       
       <categories>
           
-          <category> ツールマン </category>
+          <category> 燒雞姬 </category>
           
       </categories>
       
@@ -79,16 +79,16 @@
     
     
     <entry>
-      <title>ツールマン - Game 指令</title>
-      <link href="/%E3%83%84%E3%83%BC%E3%83%AB%E3%83%9E%E3%83%B3/command/game/"/>
-      <url>/%E3%83%84%E3%83%BC%E3%83%AB%E3%83%9E%E3%83%B3/command/game/</url>
+      <title>燒雞姬 - Game 指令</title>
+      <link href="/shao_ji_ji/command/game/"/>
+      <url>/shao_ji_ji/command/game/</url>
       
         <content type="html"><![CDATA[<h1 id="x2F-game-start"><a href="#x2F-game-start" class="headerlink" title="&#x2F;game start"></a>&#x2F;game start</h1><h1 id="x2F-game-player"><a href="#x2F-game-player" class="headerlink" title="&#x2F;game player"></a>&#x2F;game player</h1><h1 id="x2F-game-setting"><a href="#x2F-game-setting" class="headerlink" title="&#x2F;game setting"></a>&#x2F;game setting</h1><h1 id="x2F-game-2048"><a href="#x2F-game-2048" class="headerlink" title="&#x2F;game 2048"></a>&#x2F;game 2048</h1><h1 id="x2F-game-rank-2048-score"><a href="#x2F-game-rank-2048-score" class="headerlink" title="&#x2F;game rank 2048_score"></a>&#x2F;game rank 2048_score</h1><h1 id="x2F-game-rank-2048-time-all"><a href="#x2F-game-rank-2048-time-all" class="headerlink" title="&#x2F;game rank 2048_time_all"></a>&#x2F;game rank 2048_time_all</h1><h1 id="x2F-game-rank-2048-time"><a href="#x2F-game-rank-2048-time" class="headerlink" title="&#x2F;game rank 2048_time"></a>&#x2F;game rank 2048_time</h1><h1 id="x2F-game-rank-2048-time-all-1"><a href="#x2F-game-rank-2048-time-all-1" class="headerlink" title="&#x2F;game rank 2048_time_all"></a>&#x2F;game rank 2048_time_all</h1>]]></content>
       
       
       <categories>
           
-          <category> ツールマン </category>
+          <category> 燒雞姬 </category>
           
       </categories>
       
@@ -104,16 +104,16 @@
     
     
     <entry>
-      <title>ツールマン - Image 指令</title>
-      <link href="/%E3%83%84%E3%83%BC%E3%83%AB%E3%83%9E%E3%83%B3/command/image/"/>
-      <url>/%E3%83%84%E3%83%BC%E3%83%AB%E3%83%9E%E3%83%B3/command/image/</url>
+      <title>燒雞姬 - Image 指令</title>
+      <link href="/shao_ji_ji/command/image/"/>
+      <url>/shao_ji_ji/command/image/</url>
       
         <content type="html"><![CDATA[<h1 id="x2F-image-material"><a href="#x2F-image-material" class="headerlink" title="&#x2F;image material"></a>&#x2F;image material</h1><h1 id="x2F-image-save"><a href="#x2F-image-save" class="headerlink" title="&#x2F;image save"></a>&#x2F;image save</h1><h1 id="x2F-image-delete"><a href="#x2F-image-delete" class="headerlink" title="&#x2F;image delete"></a>&#x2F;image delete</h1><h1 id="x2F-image-show"><a href="#x2F-image-show" class="headerlink" title="&#x2F;image show"></a>&#x2F;image show</h1><h1 id="x2F-image-library"><a href="#x2F-image-library" class="headerlink" title="&#x2F;image library"></a>&#x2F;image library</h1><h1 id="x2F-image-face-detection"><a href="#x2F-image-face-detection" class="headerlink" title="&#x2F;image face_detection"></a>&#x2F;image face_detection</h1>]]></content>
       
       
       <categories>
           
-          <category> ツールマン </category>
+          <category> 燒雞姬 </category>
           
       </categories>
       
@@ -129,16 +129,16 @@
     
     
     <entry>
-      <title>ツールマン - Inform 指令</title>
-      <link href="/%E3%83%84%E3%83%BC%E3%83%AB%E3%83%9E%E3%83%B3/command/inform/"/>
-      <url>/%E3%83%84%E3%83%BC%E3%83%AB%E3%83%9E%E3%83%B3/command/inform/</url>
+      <title>燒雞姬 - Inform 指令</title>
+      <link href="/shao_ji_ji/command/inform/"/>
+      <url>/shao_ji_ji/command/inform/</url>
       
         <content type="html"><![CDATA[<h1 id="x2F-inform-birthday-enable"><a href="#x2F-inform-birthday-enable" class="headerlink" title="&#x2F;inform birthday enable"></a>&#x2F;inform birthday enable</h1><h1 id="x2F-inform-birthday-disenable"><a href="#x2F-inform-birthday-disenable" class="headerlink" title="&#x2F;inform birthday disenable"></a>&#x2F;inform birthday disenable</h1><h1 id="x2F-inform-gasoline-enable"><a href="#x2F-inform-gasoline-enable" class="headerlink" title="&#x2F;inform gasoline enable"></a>&#x2F;inform gasoline enable</h1><h1 id="x2F-inform-gasoline-disenable"><a href="#x2F-inform-gasoline-disenable" class="headerlink" title="&#x2F;inform gasoline disenable"></a>&#x2F;inform gasoline disenable</h1><h1 id="x2F-inform-twelve-midnight-enable"><a href="#x2F-inform-twelve-midnight-enable" class="headerlink" title="&#x2F;inform twelve_midnight enable"></a>&#x2F;inform twelve_midnight enable</h1><h1 id="x2F-inform-twelve-midnight-disenable"><a href="#x2F-inform-twelve-midnight-disenable" class="headerlink" title="&#x2F;inform twelve_midnight disenable"></a>&#x2F;inform twelve_midnight disenable</h1>]]></content>
       
       
       <categories>
           
-          <category> ツールマン </category>
+          <category> 燒雞姬 </category>
           
       </categories>
       
@@ -154,16 +154,16 @@
     
     
     <entry>
-      <title>ツールマン - Invoice 指令</title>
-      <link href="/%E3%83%84%E3%83%BC%E3%83%AB%E3%83%9E%E3%83%B3/command/invoice/"/>
-      <url>/%E3%83%84%E3%83%BC%E3%83%AB%E3%83%9E%E3%83%B3/command/invoice/</url>
+      <title>燒雞姬 - Invoice 指令</title>
+      <link href="/shao_ji_ji/command/invoice/"/>
+      <url>/shao_ji_ji/command/invoice/</url>
       
         <content type="html"><![CDATA[<h1 id="x2F-invoice-number"><a href="#x2F-invoice-number" class="headerlink" title="&#x2F;invoice number"></a>&#x2F;invoice number</h1><p>查看發票中獎號碼</p><p><img src="https://i.imgur.com/Zk4txcf.png" alt="/invoice number"></p><h1 id="x2F-invoice-check-number"><a href="#x2F-invoice-check-number" class="headerlink" title="&#x2F;invoice check number"></a>&#x2F;invoice check <font color=#87cefa>number</font></h1><p>兌獎發票工具，輸入發票號碼可以進行自動兌獎</p><table><thead><tr><th align="center">參數名</th><th align="center">性質</th><th align="center">敘述</th></tr></thead><tbody><tr><td align="center">number</td><td align="center">必要參數</td><td align="center">輸入發票號碼</td></tr></tbody></table><p><img src="https://i.imgur.com/4jd9v91.png" alt="/invoice check"></p>]]></content>
       
       
       <categories>
           
-          <category> ツールマン </category>
+          <category> 燒雞姬 </category>
           
       </categories>
       
@@ -179,66 +179,16 @@
     
     
     <entry>
-      <title>ツールマン - QRCode 指令</title>
-      <link href="/%E3%83%84%E3%83%BC%E3%83%AB%E3%83%9E%E3%83%B3/command/qrcode/"/>
-      <url>/%E3%83%84%E3%83%BC%E3%83%AB%E3%83%9E%E3%83%B3/command/qrcode/</url>
-      
-        <content type="html"><![CDATA[<h1 id="x2F-qrcode-custom-color"><a href="#x2F-qrcode-custom-color" class="headerlink" title="&#x2F;qrcode custom_color"></a>&#x2F;qrcode custom_color</h1><p>製作出一張獨一無二的 QRCode</p><table><thead><tr><th align="center">參數名</th><th align="center">性質</th><th align="center">敘述</th></tr></thead><tbody><tr><td align="center">url</td><td align="center">必要參數</td><td align="center">輸入網址</td></tr><tr><td align="center">shape</td><td align="center">可選參數</td><td align="center">選擇形狀樣式</td></tr><tr><td align="center">style</td><td align="center">可選參數</td><td align="center">選擇顏色樣式</td></tr><tr><td align="center">background</td><td align="center">可選參數</td><td align="center">輸入背景顏色，使用十六進位制(例：000000、#FFFFFF)</td></tr><tr><td align="center">color_2</td><td align="center">可選參數</td><td align="center">輸入第一種顏色，使用十六進位制(例：000000、#FFFFFF)</td></tr><tr><td align="center">color_2</td><td align="center">可選參數</td><td align="center">輸入第二種顏色，使用十六進位制(例：000000、#FFFFFF)</td></tr><tr><td align="center">logo_url</td><td align="center">可選參數</td><td align="center">輸入中間圖片連結</td></tr></tbody></table><p><img src="https://i.imgur.com/OyQhfb4.png" alt="/qrcode custom_color"></p><h1 id="x2F-qrcode-background-image"><a href="#x2F-qrcode-background-image" class="headerlink" title="&#x2F;qrcode background_image"></a>&#x2F;qrcode background_image</h1><p>製作出一張有背景圖片的 QRCode</p><table><thead><tr><th align="center">參數名</th><th align="center">性質</th><th align="center">敘述</th></tr></thead><tbody><tr><td align="center">url</td><td align="center">必要參數</td><td align="center">輸入網址</td></tr><tr><td align="center">image_url</td><td align="center">必要參數</td><td align="center">輸入背景圖片的連結</td></tr><tr><td align="center">extension</td><td align="center">必要參數</td><td align="center">選擇背景圖片的圖片種類</td></tr><tr><td align="center">color</td><td align="center">必要參數</td><td align="center">選擇背景圖片是黑白還是彩色</td></tr></tbody></table><p><img src="https://i.imgur.com/0BN9zdh.png" alt="/qrcode background_image"></p><h1 id="x2F-qrcode-read"><a href="#x2F-qrcode-read" class="headerlink" title="&#x2F;qrcode read"></a>&#x2F;qrcode read</h1><p>使用指令，上傳一張 QRCode 即可掃描出其中的內容</p><p><img src="https://i.imgur.com/35mUGAH.png" alt="/qrcode read"></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> ツールマン </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Discord Bot </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>ツールマン - Tool 指令</title>
-      <link href="/%E3%83%84%E3%83%BC%E3%83%AB%E3%83%9E%E3%83%B3/command/tool/"/>
-      <url>/%E3%83%84%E3%83%BC%E3%83%AB%E3%83%9E%E3%83%B3/command/tool/</url>
-      
-        <content type="html"><![CDATA[<h1 id="x2F-tool-rate"><a href="#x2F-tool-rate" class="headerlink" title="&#x2F;tool rate"></a>&#x2F;tool rate</h1><p>查看目前幣別匯率</p><p><img src="https://i.imgur.com/ceeXSfV.png" alt="/tool rate"></p><h1 id="x2F-tool-lottery"><a href="#x2F-tool-lottery" class="headerlink" title="&#x2F;tool lottery"></a>&#x2F;tool lottery</h1><p>查看各個台灣彩券的開獎號碼，選擇彩券名稱可單獨顯示其開獎號碼</p><table><thead><tr><th align="center">參數名</th><th align="center">性質</th><th align="center">敘述</th></tr></thead><tbody><tr><td align="center">name</td><td align="center">可選參數</td><td align="center">選擇彩券名稱</td></tr></tbody></table><p><img src="https://i.imgur.com/zXhCPHe.png" alt="/tool lottery"></p><h1 id="x2F-tool-now-weather"><a href="#x2F-tool-now-weather" class="headerlink" title="&#x2F;tool now_weather"></a>&#x2F;tool now_weather</h1><p>查看目前天氣資料，輸入鄉鎮市區名可單獨顯示其天氣資料</p><table><thead><tr><th align="center">參數名</th><th align="center">性質</th><th align="center">敘述</th></tr></thead><tbody><tr><td align="center">city</td><td align="center">必要參數</td><td align="center">選擇縣市</td></tr><tr><td align="center">town</td><td align="center">可選參數</td><td align="center">輸入鄉鎮市區名</td></tr><tr><td align="center">more</td><td align="center">可選參數</td><td align="center">是否顯示經緯度</td></tr></tbody></table><p><img src="https://i.imgur.com/wmGGd4s.png" alt="/tool now_weather"></p><h1 id="x2F-tool-song-lyrics"><a href="#x2F-tool-song-lyrics" class="headerlink" title="&#x2F;tool song_lyrics"></a>&#x2F;tool song_lyrics</h1><p>輸入歌手和歌曲名稱就能查看歌詞</p><table><thead><tr><th align="center">參數名</th><th align="center">性質</th><th align="center">敘述</th></tr></thead><tbody><tr><td align="center">singer</td><td align="center">必要參數</td><td align="center">輸入歌手名稱</td></tr><tr><td align="center">song</td><td align="center">必要參數</td><td align="center">輸入歌曲名稱</td></tr></tbody></table><p><img src="https://i.imgur.com/lJuBAsv.png" alt="/tool song_lyrics"></p><h1 id="x2F-tool-gasoline"><a href="#x2F-tool-gasoline" class="headerlink" title="&#x2F;tool gasoline"></a>&#x2F;tool gasoline</h1><p>查看本週中油汽柴油價格</p><p><img src="https://i.imgur.com/1PFWoTe.png" alt="/tool gasoline"></p><h1 id="x2F-tool-translate"><a href="#x2F-tool-translate" class="headerlink" title="&#x2F;tool translate"></a>&#x2F;tool translate</h1><p>隨時隨地都能翻譯自己看不懂的文字</p><table><thead><tr><th align="center">參數名</th><th align="center">性質</th><th align="center">敘述</th></tr></thead><tbody><tr><td align="center">text</td><td align="center">必要參數</td><td align="center">輸入要被翻譯文句</td></tr><tr><td align="center">new</td><td align="center">必要參數</td><td align="center">選擇翻譯語言</td></tr><tr><td align="center">old</td><td align="center">可選參數</td><td align="center">選擇原句語言</td></tr></tbody></table><p><img src="https://i.imgur.com/Jwedb7H.png" alt="/tool translate"></p><h1 id="x2F-tool-short-url"><a href="#x2F-tool-short-url" class="headerlink" title="&#x2F;tool short_url"></a>&#x2F;tool short_url</h1><p>網址太長就需要使用縮短網址工具來幫助分享</p><table><thead><tr><th align="center">參數名</th><th align="center">性質</th><th align="center">敘述</th></tr></thead><tbody><tr><td align="center">url</td><td align="center">必要參數</td><td align="center">輸入網址</td></tr></tbody></table><p><img src="https://i.imgur.com/dFiMtBf.png" alt="/tool short_url"></p><h1 id="x2F-tool-resistor-color-chart"><a href="#x2F-tool-resistor-color-chart" class="headerlink" title="&#x2F;tool resistor color_chart"></a>&#x2F;tool resistor color_chart</h1><p>查看電阻器上各個環的顏色分別代表的數值</p><p><img src="https://i.imgur.com/1gwB99I.png" alt="/tool resistor color_chart"></p><h1 id="x2F-tool-resistor-four-ring-computing"><a href="#x2F-tool-resistor-four-ring-computing" class="headerlink" title="&#x2F;tool resistor four_ring_computing"></a>&#x2F;tool resistor four_ring_computing</h1><p>計算四環電阻器的電阻值</p><table><thead><tr><th align="center">參數名</th><th align="center">性質</th><th align="center">敘述</th></tr></thead><tbody><tr><td align="center">one</td><td align="center">必要參數</td><td align="center">選擇第一環顏色</td></tr><tr><td align="center">two</td><td align="center">必要參數</td><td align="center">選擇第二環顏色</td></tr><tr><td align="center">three</td><td align="center">必要參數</td><td align="center">選擇第三環顏色</td></tr><tr><td align="center">four</td><td align="center">必要參數</td><td align="center">選擇第四環顏色</td></tr></tbody></table><p><img src="https://i.imgur.com/qs6YQ9t.png" alt="/tool resistor four_ring_computing"></p><h1 id="x2F-tool-resistor-five-ring-computing"><a href="#x2F-tool-resistor-five-ring-computing" class="headerlink" title="&#x2F;tool resistor five_ring_computing"></a>&#x2F;tool resistor five_ring_computing</h1><p>計算五環電阻器的電阻值</p><table><thead><tr><th align="center">參數名</th><th align="center">性質</th><th align="center">敘述</th></tr></thead><tbody><tr><td align="center">one</td><td align="center">必要參數</td><td align="center">選擇第一環顏色</td></tr><tr><td align="center">two</td><td align="center">必要參數</td><td align="center">選擇第二環顏色</td></tr><tr><td align="center">three</td><td align="center">必要參數</td><td align="center">選擇第三環顏色</td></tr><tr><td align="center">four</td><td align="center">必要參數</td><td align="center">選擇第四環顏色</td></tr><tr><td align="center">five</td><td align="center">必要參數</td><td align="center">選擇第五環顏色</td></tr></tbody></table><p><img src="https://i.imgur.com/qHxA7iN.png" alt="/tool resistor five_ring_computing"></p><h1 id="x2F-tool-identity-card-number-check"><a href="#x2F-tool-identity-card-number-check" class="headerlink" title="&#x2F;tool identity_card number_check"></a>&#x2F;tool identity_card number_check</h1><p>檢驗輸入的身分證字號是否正確</p><table><thead><tr><th align="center">參數名</th><th align="center">性質</th><th align="center">敘述</th></tr></thead><tbody><tr><td align="center">id</td><td align="center">必要參數</td><td align="center">輸入身分證字號</td></tr></tbody></table><p><img src="https://i.imgur.com/TELsrbz.png" alt="/tool identity_card number_check"></p><h1 id="x2F-tool-identity-card-number-create"><a href="#x2F-tool-identity-card-number-create" class="headerlink" title="&#x2F;tool identity_card number_create"></a>&#x2F;tool identity_card number_create</h1><p>隨機產生一組身分證字號，可不能拿來作為非法用途</p><p><img src="https://i.imgur.com/NAXOryL.png" alt="/tool identity_card number_create"></p><h1 id="x2F-tool-identity-card-image"><a href="#x2F-tool-identity-card-image" class="headerlink" title="&#x2F;tool identity_card image"></a>&#x2F;tool identity_card image</h1><p>挑選出好看的照片，製作出獨一無二的身分證</p><table><thead><tr><th align="center">參數名</th><th align="center">性質</th><th align="center">敘述</th></tr></thead><tbody><tr><td align="center">name</td><td align="center">必要參數</td><td align="center">輸入名字</td></tr><tr><td align="center">icon</td><td align="center">必要參數</td><td align="center">輸入圖片連結</td></tr><tr><td align="center">year</td><td align="center">必要參數</td><td align="center">輸入年分</td></tr><tr><td align="center">month</td><td align="center">必要參數</td><td align="center">輸入月分</td></tr><tr><td align="center">day</td><td align="center">必要參數</td><td align="center">輸入天分</td></tr><tr><td align="center">gender</td><td align="center">必要參數</td><td align="center">選擇性別</td></tr></tbody></table><p><img src="https://i.imgur.com/gv2YyaD.png" alt="/tool identity_card image"></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> ツールマン </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Discord Bot </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>ツールマン - Other 指令</title>
-      <link href="/%E3%83%84%E3%83%BC%E3%83%AB%E3%83%9E%E3%83%B3/command/other/"/>
-      <url>/%E3%83%84%E3%83%BC%E3%83%AB%E3%83%9E%E3%83%B3/command/other/</url>
+      <title>燒雞姬 - Other 指令</title>
+      <link href="/shao_ji_ji/command/other/"/>
+      <url>/shao_ji_ji/command/other/</url>
       
         <content type="html"><![CDATA[<h1 id="x2F-other-avatar"><a href="#x2F-other-avatar" class="headerlink" title="&#x2F;other avatar"></a>&#x2F;other avatar</h1><h1 id="x2F-other-pr"><a href="#x2F-other-pr" class="headerlink" title="&#x2F;other pr"></a>&#x2F;other pr</h1><h1 id="x2F-other-choice"><a href="#x2F-other-choice" class="headerlink" title="&#x2F;other choice"></a>&#x2F;other choice</h1><h1 id="x2F-other-think"><a href="#x2F-other-think" class="headerlink" title="&#x2F;other think"></a>&#x2F;other think</h1><h1 id="x2F-other-random"><a href="#x2F-other-random" class="headerlink" title="&#x2F;other random"></a>&#x2F;other random</h1><h1 id="x2F-other-word-count"><a href="#x2F-other-word-count" class="headerlink" title="&#x2F;other word_count"></a>&#x2F;other word_count</h1><h1 id="x2F-other-taiwan-railway-bento"><a href="#x2F-other-taiwan-railway-bento" class="headerlink" title="&#x2F;other taiwan_railway_bento"></a>&#x2F;other taiwan_railway_bento</h1>]]></content>
       
       
       <categories>
           
-          <category> ツールマン </category>
+          <category> 燒雞姬 </category>
           
       </categories>
       
@@ -254,16 +204,66 @@
     
     
     <entry>
-      <title>ツールマン - Bot 指令</title>
-      <link href="/%E3%83%84%E3%83%BC%E3%83%AB%E3%83%9E%E3%83%B3/command/bot/"/>
-      <url>/%E3%83%84%E3%83%BC%E3%83%AB%E3%83%9E%E3%83%B3/command/bot/</url>
+      <title>燒雞姬 - Tool 指令</title>
+      <link href="/shao_ji_ji/command/tool/"/>
+      <url>/shao_ji_ji/command/tool/</url>
+      
+        <content type="html"><![CDATA[<h1 id="x2F-tool-rate"><a href="#x2F-tool-rate" class="headerlink" title="&#x2F;tool rate"></a>&#x2F;tool rate</h1><p>查看目前幣別匯率</p><p><img src="https://i.imgur.com/ceeXSfV.png" alt="/tool rate"></p><h1 id="x2F-tool-lottery"><a href="#x2F-tool-lottery" class="headerlink" title="&#x2F;tool lottery"></a>&#x2F;tool lottery</h1><p>查看各個台灣彩券的開獎號碼，選擇彩券名稱可單獨顯示其開獎號碼</p><table><thead><tr><th align="center">參數名</th><th align="center">性質</th><th align="center">敘述</th></tr></thead><tbody><tr><td align="center">name</td><td align="center">可選參數</td><td align="center">選擇彩券名稱</td></tr></tbody></table><p><img src="https://i.imgur.com/zXhCPHe.png" alt="/tool lottery"></p><h1 id="x2F-tool-now-weather"><a href="#x2F-tool-now-weather" class="headerlink" title="&#x2F;tool now_weather"></a>&#x2F;tool now_weather</h1><p>查看目前天氣資料，輸入鄉鎮市區名可單獨顯示其天氣資料</p><table><thead><tr><th align="center">參數名</th><th align="center">性質</th><th align="center">敘述</th></tr></thead><tbody><tr><td align="center">city</td><td align="center">必要參數</td><td align="center">選擇縣市</td></tr><tr><td align="center">town</td><td align="center">可選參數</td><td align="center">輸入鄉鎮市區名</td></tr><tr><td align="center">more</td><td align="center">可選參數</td><td align="center">是否顯示經緯度</td></tr></tbody></table><p><img src="https://i.imgur.com/wmGGd4s.png" alt="/tool now_weather"></p><h1 id="x2F-tool-song-lyrics"><a href="#x2F-tool-song-lyrics" class="headerlink" title="&#x2F;tool song_lyrics"></a>&#x2F;tool song_lyrics</h1><p>輸入歌手和歌曲名稱就能查看歌詞</p><table><thead><tr><th align="center">參數名</th><th align="center">性質</th><th align="center">敘述</th></tr></thead><tbody><tr><td align="center">singer</td><td align="center">必要參數</td><td align="center">輸入歌手名稱</td></tr><tr><td align="center">song</td><td align="center">必要參數</td><td align="center">輸入歌曲名稱</td></tr></tbody></table><p><img src="https://i.imgur.com/lJuBAsv.png" alt="/tool song_lyrics"></p><h1 id="x2F-tool-gasoline"><a href="#x2F-tool-gasoline" class="headerlink" title="&#x2F;tool gasoline"></a>&#x2F;tool gasoline</h1><p>查看本週中油汽柴油價格</p><p><img src="https://i.imgur.com/1PFWoTe.png" alt="/tool gasoline"></p><h1 id="x2F-tool-translate"><a href="#x2F-tool-translate" class="headerlink" title="&#x2F;tool translate"></a>&#x2F;tool translate</h1><p>隨時隨地都能翻譯自己看不懂的文字</p><table><thead><tr><th align="center">參數名</th><th align="center">性質</th><th align="center">敘述</th></tr></thead><tbody><tr><td align="center">text</td><td align="center">必要參數</td><td align="center">輸入要被翻譯文句</td></tr><tr><td align="center">new</td><td align="center">必要參數</td><td align="center">選擇翻譯語言</td></tr><tr><td align="center">old</td><td align="center">可選參數</td><td align="center">選擇原句語言</td></tr></tbody></table><p><img src="https://i.imgur.com/Jwedb7H.png" alt="/tool translate"></p><h1 id="x2F-tool-short-url"><a href="#x2F-tool-short-url" class="headerlink" title="&#x2F;tool short_url"></a>&#x2F;tool short_url</h1><p>網址太長就需要使用縮短網址工具來幫助分享</p><table><thead><tr><th align="center">參數名</th><th align="center">性質</th><th align="center">敘述</th></tr></thead><tbody><tr><td align="center">url</td><td align="center">必要參數</td><td align="center">輸入網址</td></tr></tbody></table><p><img src="https://i.imgur.com/dFiMtBf.png" alt="/tool short_url"></p><h1 id="x2F-tool-resistor-color-chart"><a href="#x2F-tool-resistor-color-chart" class="headerlink" title="&#x2F;tool resistor color_chart"></a>&#x2F;tool resistor color_chart</h1><p>查看電阻器上各個環的顏色分別代表的數值</p><p><img src="https://i.imgur.com/1gwB99I.png" alt="/tool resistor color_chart"></p><h1 id="x2F-tool-resistor-four-ring-computing"><a href="#x2F-tool-resistor-four-ring-computing" class="headerlink" title="&#x2F;tool resistor four_ring_computing"></a>&#x2F;tool resistor four_ring_computing</h1><p>計算四環電阻器的電阻值</p><table><thead><tr><th align="center">參數名</th><th align="center">性質</th><th align="center">敘述</th></tr></thead><tbody><tr><td align="center">one</td><td align="center">必要參數</td><td align="center">選擇第一環顏色</td></tr><tr><td align="center">two</td><td align="center">必要參數</td><td align="center">選擇第二環顏色</td></tr><tr><td align="center">three</td><td align="center">必要參數</td><td align="center">選擇第三環顏色</td></tr><tr><td align="center">four</td><td align="center">必要參數</td><td align="center">選擇第四環顏色</td></tr></tbody></table><p><img src="https://i.imgur.com/qs6YQ9t.png" alt="/tool resistor four_ring_computing"></p><h1 id="x2F-tool-resistor-five-ring-computing"><a href="#x2F-tool-resistor-five-ring-computing" class="headerlink" title="&#x2F;tool resistor five_ring_computing"></a>&#x2F;tool resistor five_ring_computing</h1><p>計算五環電阻器的電阻值</p><table><thead><tr><th align="center">參數名</th><th align="center">性質</th><th align="center">敘述</th></tr></thead><tbody><tr><td align="center">one</td><td align="center">必要參數</td><td align="center">選擇第一環顏色</td></tr><tr><td align="center">two</td><td align="center">必要參數</td><td align="center">選擇第二環顏色</td></tr><tr><td align="center">three</td><td align="center">必要參數</td><td align="center">選擇第三環顏色</td></tr><tr><td align="center">four</td><td align="center">必要參數</td><td align="center">選擇第四環顏色</td></tr><tr><td align="center">five</td><td align="center">必要參數</td><td align="center">選擇第五環顏色</td></tr></tbody></table><p><img src="https://i.imgur.com/qHxA7iN.png" alt="/tool resistor five_ring_computing"></p><h1 id="x2F-tool-identity-card-number-check"><a href="#x2F-tool-identity-card-number-check" class="headerlink" title="&#x2F;tool identity_card number_check"></a>&#x2F;tool identity_card number_check</h1><p>檢驗輸入的身分證字號是否正確</p><table><thead><tr><th align="center">參數名</th><th align="center">性質</th><th align="center">敘述</th></tr></thead><tbody><tr><td align="center">id</td><td align="center">必要參數</td><td align="center">輸入身分證字號</td></tr></tbody></table><p><img src="https://i.imgur.com/TELsrbz.png" alt="/tool identity_card number_check"></p><h1 id="x2F-tool-identity-card-number-create"><a href="#x2F-tool-identity-card-number-create" class="headerlink" title="&#x2F;tool identity_card number_create"></a>&#x2F;tool identity_card number_create</h1><p>隨機產生一組身分證字號，可不能拿來作為非法用途</p><p><img src="https://i.imgur.com/NAXOryL.png" alt="/tool identity_card number_create"></p><h1 id="x2F-tool-identity-card-image"><a href="#x2F-tool-identity-card-image" class="headerlink" title="&#x2F;tool identity_card image"></a>&#x2F;tool identity_card image</h1><p>挑選出好看的照片，製作出獨一無二的身分證</p><table><thead><tr><th align="center">參數名</th><th align="center">性質</th><th align="center">敘述</th></tr></thead><tbody><tr><td align="center">name</td><td align="center">必要參數</td><td align="center">輸入名字</td></tr><tr><td align="center">icon</td><td align="center">必要參數</td><td align="center">輸入圖片連結</td></tr><tr><td align="center">year</td><td align="center">必要參數</td><td align="center">輸入年分</td></tr><tr><td align="center">month</td><td align="center">必要參數</td><td align="center">輸入月分</td></tr><tr><td align="center">day</td><td align="center">必要參數</td><td align="center">輸入天分</td></tr><tr><td align="center">gender</td><td align="center">必要參數</td><td align="center">選擇性別</td></tr></tbody></table><p><img src="https://i.imgur.com/gv2YyaD.png" alt="/tool identity_card image"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 燒雞姬 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Discord Bot </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>燒雞姬 - QRCode 指令</title>
+      <link href="/shao_ji_ji/command/qrcode/"/>
+      <url>/shao_ji_ji/command/qrcode/</url>
+      
+        <content type="html"><![CDATA[<h1 id="x2F-qrcode-custom-color"><a href="#x2F-qrcode-custom-color" class="headerlink" title="&#x2F;qrcode custom_color"></a>&#x2F;qrcode custom_color</h1><p>製作出一張獨一無二的 QRCode</p><table><thead><tr><th align="center">參數名</th><th align="center">性質</th><th align="center">敘述</th></tr></thead><tbody><tr><td align="center">url</td><td align="center">必要參數</td><td align="center">輸入網址</td></tr><tr><td align="center">shape</td><td align="center">可選參數</td><td align="center">選擇形狀樣式</td></tr><tr><td align="center">style</td><td align="center">可選參數</td><td align="center">選擇顏色樣式</td></tr><tr><td align="center">background</td><td align="center">可選參數</td><td align="center">輸入背景顏色，使用十六進位制(例：000000、#FFFFFF)</td></tr><tr><td align="center">color_2</td><td align="center">可選參數</td><td align="center">輸入第一種顏色，使用十六進位制(例：000000、#FFFFFF)</td></tr><tr><td align="center">color_2</td><td align="center">可選參數</td><td align="center">輸入第二種顏色，使用十六進位制(例：000000、#FFFFFF)</td></tr><tr><td align="center">logo_url</td><td align="center">可選參數</td><td align="center">輸入中間圖片連結</td></tr></tbody></table><p><img src="https://i.imgur.com/OyQhfb4.png" alt="/qrcode custom_color"></p><h1 id="x2F-qrcode-background-image"><a href="#x2F-qrcode-background-image" class="headerlink" title="&#x2F;qrcode background_image"></a>&#x2F;qrcode background_image</h1><p>製作出一張有背景圖片的 QRCode</p><table><thead><tr><th align="center">參數名</th><th align="center">性質</th><th align="center">敘述</th></tr></thead><tbody><tr><td align="center">url</td><td align="center">必要參數</td><td align="center">輸入網址</td></tr><tr><td align="center">image_url</td><td align="center">必要參數</td><td align="center">輸入背景圖片的連結</td></tr><tr><td align="center">extension</td><td align="center">必要參數</td><td align="center">選擇背景圖片的圖片種類</td></tr><tr><td align="center">color</td><td align="center">必要參數</td><td align="center">選擇背景圖片是黑白還是彩色</td></tr></tbody></table><p><img src="https://i.imgur.com/0BN9zdh.png" alt="/qrcode background_image"></p><h1 id="x2F-qrcode-read"><a href="#x2F-qrcode-read" class="headerlink" title="&#x2F;qrcode read"></a>&#x2F;qrcode read</h1><p>使用指令，上傳一張 QRCode 即可掃描出其中的內容</p><p><img src="https://i.imgur.com/35mUGAH.png" alt="/qrcode read"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 燒雞姬 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Discord Bot </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>燒雞姬 - Bot 指令</title>
+      <link href="/shao_ji_ji/command/bot/"/>
+      <url>/shao_ji_ji/command/bot/</url>
       
         <content type="html"><![CDATA[<h1 id="x2F-bot-ping"><a href="#x2F-bot-ping" class="headerlink" title="&#x2F;bot ping"></a>&#x2F;bot ping</h1><p>Bot 和 Discord 伺服器之間的延遲時間</p><p><img src="https://i.imgur.com/QiJpFmo.png" alt="/bot ping"></p><h1 id="x2F-bot-test"><a href="#x2F-bot-test" class="headerlink" title="&#x2F;bot test"></a>&#x2F;bot test</h1><p>測試 Bot 目前是否正常運作</p><p><img src="https://i.imgur.com/lL476Bx.png" alt="/bot_test"></p><h1 id="x2F-bot-bug"><a href="#x2F-bot-bug" class="headerlink" title="&#x2F;bot bug"></a>&#x2F;bot bug</h1><p>回報 Bot 的錯誤問題，讓開發者能盡早得知並將其修復</p>]]></content>
       
       
       <categories>
           
-          <category> ツールマン </category>
+          <category> 燒雞姬 </category>
           
       </categories>
       
@@ -279,16 +279,16 @@
     
     
     <entry>
-      <title>ツールマン - 概述</title>
-      <link href="/%E3%83%84%E3%83%BC%E3%83%AB%E3%83%9E%E3%83%B3/home/"/>
-      <url>/%E3%83%84%E3%83%BC%E3%83%AB%E3%83%9E%E3%83%B3/home/</url>
+      <title>燒雞姬 - 概述</title>
+      <link href="/shao_ji_ji/home/"/>
+      <url>/shao_ji_ji/home/</url>
       
-        <content type="html"><![CDATA[<p>Hello, world!<br>It’s an honor to have met you.<br>I am a discord bot, my name is ツールマン.<br>Welcome to invite me to your discord server!</p><h1 id="📌-特色介紹"><a href="#📌-特色介紹" class="headerlink" title="📌 特色介紹"></a>📌 特色介紹</h1><ul><li>所有功能完全免費，無需任何付費和訂閱</li><li>全面使用斜線指令，使用指令更加方便和直觀</li><li>新穎圖片庫功能，讓你跨伺服器也能輕鬆分享圖片</li><li>十大種類，接近一百個指令，等著你來探索和挖掘</li><li>指令持續增加中，歡迎喜歡嘗鮮的人邀回去研究</li></ul><h1 id="📌-開始使用"><a href="#📌-開始使用" class="headerlink" title="📌 開始使用"></a>📌 開始使用</h1><p>&#x2F;help，使用每個 Discord Bot 的第一步！</p><h1 id="📌-指令分類"><a href="#📌-指令分類" class="headerlink" title="📌 指令分類"></a>📌 指令分類</h1><!-- default/blue/pink/red/purple/orange/green --><a class="btn-beautify default outline larger" href="http://smallshawn95.github.io/ツールマン/command/bot/"   title="Bot"><i class="fa-solid fa-code"></i><span>Bot</span></a><a class="btn-beautify pink outline larger" href="http://smallshawn95.github.io/ツールマン/command/code/"   title="Code"><i class="fa-solid fa-code"></i><span>Code</span></a><a class="btn-beautify green outline larger" href="http://smallshawn95.github.io/ツールマン/command/color/"   title="Color"><i class="fa-solid fa-code"></i><span>Color</span></a><a class="btn-beautify purple outline larger" href="http://smallshawn95.github.io/ツールマン/command/date/"   title="Date"><i class="fa-solid fa-code"></i><span>Date</span></a><a class="btn-beautify orange outline larger" href="http://smallshawn95.github.io/ツールマン/command/game/"   title="Game"><i class="fa-solid fa-code"></i><span>Game</span></a><a class="btn-beautify red outline larger" href="http://smallshawn95.github.io/ツールマン/command/image/"   title="Image"><i class="fa-solid fa-code"></i><span>Image</span></a><a class="btn-beautify blue outline larger" href="http://smallshawn95.github.io/ツールマン/command/inform/"   title="Inform"><i class="fa-solid fa-code"></i><span>Inform</span></a><a class="btn-beautify pink outline larger" href="http://smallshawn95.github.io/ツールマン/command/invoice/"   title="Invoice"><i class="fa-solid fa-code"></i><span>Invoice</span></a><a class="btn-beautify green outline larger" href="http://smallshawn95.github.io/ツールマン/command/qrcode/"   title="QRCode"><i class="fa-solid fa-code"></i><span>QRCode</span></a><a class="btn-beautify purple outline larger" href="http://smallshawn95.github.io/ツールマン/command/tool/"   title="Tool"><i class="fa-solid fa-code"></i><span>Tool</span></a><a class="btn-beautify default outline larger" href="http://smallshawn95.github.io/ツールマン/command/other/"   title="Other"><i class="fa-solid fa-code"></i><span>Other</span></a><h1 id="📌-相關資源"><a href="#📌-相關資源" class="headerlink" title="📌 相關資源"></a>📌 相關資源</h1><a class="btn-beautify blue outline larger" href="https://smallshawn95.github.io/2023/06/ツールマン/"   title="官方文檔"><i class="fa-solid fa-paperclip"></i><span>官方文檔</span></a><a class="btn-beautify blue outline larger" href="https://discord.com/oauth2/authorize?client_id=1086121536081121391&permissions=140057635904&scope=bot"   title="邀請機器人"><i class="fa-solid fa-paperclip"></i><span>邀請機器人</span></a><a class="btn-beautify blue outline larger" href="https://discord.gg/Jtd3eVrFJs"   title="支援伺服器"><i class="fa-solid fa-paperclip"></i><span>支援伺服器</span></a><a class="btn-beautify blue outline larger" href="https://github.com/smallshawn95/Python-Discord-Bot-Teach.git"   title="Python Discord Bot 教學系列"><i class="fa-solid fa-paperclip"></i><span>Python Discord Bot 教學系列</span></a>]]></content>
+        <content type="html"><![CDATA[<p>Hello, world!<br>It’s an honor to have met you.<br>I am a discord bot, my name is shao_ji_ji.<br>Welcome to invite me to your discord server!</p><h1 id="📌-特色介紹"><a href="#📌-特色介紹" class="headerlink" title="📌 特色介紹"></a>📌 特色介紹</h1><ul><li>所有功能完全免費，無需任何付費和訂閱</li><li>全面使用斜線指令，使用指令更加方便和直觀</li><li>新穎圖片庫功能，讓你跨伺服器也能輕鬆分享圖片</li><li>十大種類，接近一百個指令，等著你來探索和挖掘</li><li>指令持續增加中，歡迎喜歡嘗鮮的人邀回去研究</li></ul><h1 id="📌-開始使用"><a href="#📌-開始使用" class="headerlink" title="📌 開始使用"></a>📌 開始使用</h1><p>&#x2F;help，使用每個 Discord Bot 的第一步！</p><h1 id="📌-指令分類"><a href="#📌-指令分類" class="headerlink" title="📌 指令分類"></a>📌 指令分類</h1><!-- default/blue/pink/red/purple/orange/green --><a class="btn-beautify default outline larger" href="http://smallshawn95.github.io/shao_ji_ji/command/bot/"   title="Bot"><i class="fa-solid fa-code"></i><span>Bot</span></a><a class="btn-beautify pink outline larger" href="http://smallshawn95.github.io/shao_ji_ji/command/code/"   title="Code"><i class="fa-solid fa-code"></i><span>Code</span></a><a class="btn-beautify green outline larger" href="http://smallshawn95.github.io/shao_ji_ji/command/color/"   title="Color"><i class="fa-solid fa-code"></i><span>Color</span></a><a class="btn-beautify purple outline larger" href="http://smallshawn95.github.io/shao_ji_ji/command/date/"   title="Date"><i class="fa-solid fa-code"></i><span>Date</span></a><a class="btn-beautify orange outline larger" href="http://smallshawn95.github.io/shao_ji_ji/command/game/"   title="Game"><i class="fa-solid fa-code"></i><span>Game</span></a><a class="btn-beautify red outline larger" href="http://smallshawn95.github.io/shao_ji_ji/command/image/"   title="Image"><i class="fa-solid fa-code"></i><span>Image</span></a><a class="btn-beautify blue outline larger" href="http://smallshawn95.github.io/shao_ji_ji/command/inform/"   title="Inform"><i class="fa-solid fa-code"></i><span>Inform</span></a><a class="btn-beautify pink outline larger" href="http://smallshawn95.github.io/shao_ji_ji/command/invoice/"   title="Invoice"><i class="fa-solid fa-code"></i><span>Invoice</span></a><a class="btn-beautify green outline larger" href="http://smallshawn95.github.io/shao_ji_ji/command/qrcode/"   title="QRCode"><i class="fa-solid fa-code"></i><span>QRCode</span></a><a class="btn-beautify purple outline larger" href="http://smallshawn95.github.io/shao_ji_ji/command/tool/"   title="Tool"><i class="fa-solid fa-code"></i><span>Tool</span></a><a class="btn-beautify default outline larger" href="http://smallshawn95.github.io/shao_ji_ji/command/other/"   title="Other"><i class="fa-solid fa-code"></i><span>Other</span></a><h1 id="📌-相關資源"><a href="#📌-相關資源" class="headerlink" title="📌 相關資源"></a>📌 相關資源</h1><a class="btn-beautify blue outline larger" href="https://smallshawn95.github.io/shao_ji_ji/"   title="官方文檔"><i class="fa-solid fa-paperclip"></i><span>官方文檔</span></a><a class="btn-beautify blue outline larger" href="https://discord.com/oauth2/authorize?client_id=1086121536081121391&permissions=140057635904&scope=bot"   title="邀請機器人"><i class="fa-solid fa-paperclip"></i><span>邀請機器人</span></a><a class="btn-beautify blue outline larger" href="https://discord.gg/Jtd3eVrFJs"   title="支援伺服器"><i class="fa-solid fa-paperclip"></i><span>支援伺服器</span></a><a class="btn-beautify blue outline larger" href="https://github.com/smallshawn95/Python-Discord-Bot-Teach.git"   title="Python Discord Bot 教學系列"><i class="fa-solid fa-paperclip"></i><span>Python Discord Bot 教學系列</span></a>]]></content>
       
       
       <categories>
           
-          <category> ツールマン </category>
+          <category> 燒雞姬 </category>
           
       </categories>
       
