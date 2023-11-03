@@ -1,0 +1,287 @@
+<!DOCTYPE html><html lang="zh-TW" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"><title>Python Discord Bot 基礎教學 | SmallShawn95's Home</title><meta name="author" content="SmallShawn95,smallshawn95@gmail.com"><meta name="copyright" content="SmallShawn95"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="這是一篇使用 discord.py 模組開發的 Discord Bot 基礎教學文章。剛接觸程式的新手也能簡單製作一臺屬於自己的 Discord Bot，跟著此篇教學步驟能夠讓 Discord Bot 回覆簡單訊息。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Python Discord Bot 基礎教學">
+<meta property="og:url" content="http://smallshawn95.github.io/Python_Discord_Bot/base/index.html">
+<meta property="og:site_name" content="SmallShawn95&#39;s Home">
+<meta property="og:description" content="這是一篇使用 discord.py 模組開發的 Discord Bot 基礎教學文章。剛接觸程式的新手也能簡單製作一臺屬於自己的 Discord Bot，跟著此篇教學步驟能夠讓 Discord Bot 回覆簡單訊息。">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:image" content="https://i.imgur.com/j7vPJ8z.png">
+<meta property="article:published_time" content="2023-11-03T14:48:00.000Z">
+<meta property="article:modified_time" content="2023-11-03T15:21:46.301Z">
+<meta property="article:author" content="SmallShawn95">
+<meta property="article:tag" content="Python">
+<meta property="article:tag" content="Discord Bot">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://i.imgur.com/j7vPJ8z.png"><link rel="shortcut icon" href="/"><link rel="canonical" href="http://smallshawn95.github.io/Python_Discord_Bot/base/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"languages":{"hits_empty":"找不到您查詢的內容：${query}"}},
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '複製成功',
+    error: '複製錯誤',
+    noSupport: '瀏覽器不支援'
+  },
+  relativeDate: {
+    homepage: true,
+    post: false
+  },
+  runtime: '天',
+  date_suffix: {
+    just: '剛剛',
+    min: '分鐘前',
+    hour: '小時前',
+    day: '天前',
+    month: '個月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: {"chs_to_cht":"你已切換為繁體","cht_to_chs":"你已切換為簡體","day_to_night":"你已切換為深色模式","night_to_day":"你已切換為淺色模式","bgLight":"#49b1f5","bgDark":"#1f1f1f","position":"bottom-left"},
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: false,
+    rightside: true,
+  }
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'Python Discord Bot 基礎教學',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: undefined,
+  isToc: true,
+  postUpdate: '2023-11-03 23:21:46'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+    win.getCSS = url => new Promise((resolve, reject) => {
+      const link = document.createElement('link')
+      link.rel = 'stylesheet'
+      link.href = url
+      link.onload = () => resolve()
+      link.onerror = () => reject()
+      document.head.appendChild(link)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><link rel = "stylesheet" href = "/css/custom.css"><meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="SmallShawn95's Home" type="application/atom+xml">
+</head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="spinner-box"><div class="configure-border-1"><div class="configure-core"></div></div><div class="configure-border-2"><div class="configure-core"></div></div><div class="loading-word">載入中...</div></div></div><script>const preloader = {
+  endLoading: () => {
+    document.body.style.overflow = 'auto';
+    document.getElementById('loading-box').classList.add("loaded")
+  },
+  initLoading: () => {
+    document.body.style.overflow = '';
+    document.getElementById('loading-box').classList.remove("loaded")
+
+  }
+}
+window.addEventListener('load',()=> { preloader.endLoading() })
+
+if (false) {
+  document.addEventListener('pjax:send', () => { preloader.initLoading() })
+  document.addEventListener('pjax:complete', () => { preloader.endLoading() })
+}</script><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://i.imgur.com/j7vPJ8z.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">4</div></a><a href="/tags/"><div class="headline">標籤</div><div class="length-num">3</div></a><a href="/categories/"><div class="headline">分類</div><div class="length-num">2</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首頁</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa-solid fa-file"></i><span> 更多文章</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/tags/"><i class="fa-fw fa-solid fa-tags"></i><span> 標籤</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fa-solid fa-folder-open"></i><span> 分類</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fa-sharp fa-solid fa-arrow-up-right-from-square"></i><span> 連結</span></a></div><div class="menus_item"><a class="site-page" href="/message/"><i class="fa-fw fa-solid fa-message"></i><span> 留言版</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fa-solid fa-address-card"></i><span> 關於版主</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg fixed" id="page-header" style="background: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);"><nav id="nav"><span id="blog-info"><a href="/" title="SmallShawn95's Home"><span class="site-name">SmallShawn95's Home</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i><span> 搜尋</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首頁</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa-solid fa-file"></i><span> 更多文章</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/tags/"><i class="fa-fw fa-solid fa-tags"></i><span> 標籤</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fa-solid fa-folder-open"></i><span> 分類</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fa-sharp fa-solid fa-arrow-up-right-from-square"></i><span> 連結</span></a></div><div class="menus_item"><a class="site-page" href="/message/"><i class="fa-fw fa-solid fa-message"></i><span> 留言版</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fa-solid fa-address-card"></i><span> 關於版主</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">Python Discord Bot 基礎教學</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">發表於</span><time class="post-meta-date-created" datetime="2023-11-03T14:48:00.000Z" title="發表於 2023-11-03 22:48:00">2023-11-03</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新於</span><time class="post-meta-date-updated" datetime="2023-11-03T15:21:46.301Z" title="更新於 2023-11-03 23:21:46">2023-11-03</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/Python-Discord-Bot-%E6%95%99%E5%AD%B8/">Python Discord Bot 教學</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字數總計:</span><span class="word-count">1.4k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">閱讀時長:</span><span>4分鐘</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="Python Discord Bot 基礎教學"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">閱讀量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><p>這是一篇使用 discord.py 模組開發的 Discord Bot 基礎教學文章。<br>剛接觸程式的新手也能簡單製作一臺屬於自己的 Discord Bot，跟著此篇教學步驟能夠讓 Discord Bot 回覆簡單訊息。</p>
+<div class="note blue icon-padding flat"><i class="note-icon fas fa-bullhorn"></i><p><strong>歡迎加入筆者的 Discord 伺服器</strong> <a class="btn-beautify outline blue" target="_blank" rel="noopener" href="https://discord.gg/Jtd3eVrFJs" 
+  title="點此加入"><i class="far fa-hand-point-right"></i><span>點此加入</span></a></p>
+</div>
+<div class="note blue icon-padding flat"><i class="note-icon fa-solid fa-book"></i><p><strong>Python Discord Bot 教學文章和程式碼範例</strong> <a class="btn-beautify outline blue" target="_blank" rel="noopener" href="https://github.com/smallshawn95/Python-Discord-Bot-Course.git" 
+  title="點此前往"><i class="far fa-hand-point-right"></i><span>點此前往</span></a></p>
+</div>
+
+<hr>
+<h2 id="一、Discord-簡介："><a href="#一、Discord-簡介：" class="headerlink" title="一、Discord 簡介："></a>一、Discord 簡介：</h2><p>Discord 誕生於西元 2015 年，一開始是為了遊戲玩家而設計的免費網路即時通話軟體，經過多年來的發展，現今教育人士、學生、商業人士等等各式各樣的人都有在使用 Discord 作為辦公討論的工具。<br>Discord 功能十分多樣，不僅能夠直播、通話、建立各種新的頻道和伺服器、身分組管理系統等等，還有支持 Markdown 語法，能夠讓文字產生更多的變化和應用。<br>Discord 在 Windows、macOS、Linux、iOS、Android 和網頁瀏覽器等等常見平台都能運行。</p>
+<h2 id="二、Discord-Bot-簡介："><a href="#二、Discord-Bot-簡介：" class="headerlink" title="二、Discord Bot 簡介："></a>二、Discord Bot 簡介：</h2><p>Discord Bot 在 Discord 中扮演一個非常重要的角色，Bot 是機器人的意思，能夠自動化地幫助伺服器管理員執行繁忙瑣碎的任務，例如：歡迎新成員、自動分發身分組、點播音樂、管理伺服器秩序等等功能，最重要的是每位 Discord 使用者都能免費打造屬於自己獨一無二的機器人。</p>
+<h2 id="三、Discord-Bot-創建："><a href="#三、Discord-Bot-創建：" class="headerlink" title="三、Discord Bot 創建："></a>三、Discord Bot 創建：</h2><ol>
+<li><p>先登入 Discord 帳號。<br>連結：<a target="_blank" rel="noopener" href="https://discord.com/">https://discord.com/</a><br><img src="https://i.imgur.com/cZY3wYb.png"></p>
+</li>
+<li><p>前往 Discord Developers。<br>連結：<a target="_blank" rel="noopener" href="https://discord.com/developers/applications">https://discord.com/developers/applications</a><br><img src="https://i.imgur.com/eAaazuq.png"></p>
+</li>
+<li><p>點擊 New Application，創建機器人的整合系統身分組名稱（未來可修改）。<br><img src="https://i.imgur.com/Z1x1ucZ.png"></p>
+<p><img src="https://i.imgur.com/iWpSBQN.png"></p>
+</li>
+<li><p>點選左側功能欄中的 Bot 進入創建頁面。<br><img src="https://i.imgur.com/G6gsxVh.png"></p>
+</li>
+<li><p>點擊 Add Bot 創建機器人身分，接著點擊「Yes, do it!」，即可創建成功。<br><img src="https://i.imgur.com/mPUSVZH.png"></p>
+<p><img src="https://i.imgur.com/a1oQbxi.png"></p>
+</li>
+<li><p>往下滑到 Privileged Gateway Intents 區塊，三個功能選項都點選並按下 Save Change，對未來製作機器人較方便操作。<br><img src="https://i.imgur.com/SSNcPx3.png"></p>
+</li>
+<li><p>點擊左側功能欄 OAuth2 會跑出兩個選項，點擊 URL Generator 選項。<br><img src="https://i.imgur.com/3DBLP92.png"></p>
+</li>
+<li><p>右方 SCOPES 區塊中選擇 bot，往下滑點選 Administrator，賦予機器人所有權限，而最下方的 GENERATED URL 就是邀請機器人到伺服器中的連結。<br><img src="https://i.imgur.com/NMSOa0s.png"></p>
+<p><img src="https://i.imgur.com/JmVJDTp.png"></p>
+</li>
+<li><p>前往上方獲得的連結，進入邀請頁面後，點選要加入的伺服器並授權機器人。<br><img src="https://i.imgur.com/GqlvyHv.png"></p>
+<p><img src="https://i.imgur.com/Vz0hCuk.png"></p>
+</li>
+<li><p>如果看到機器人出現在成員列表中以及歡迎訊息，代表機器人創建成功。<br>   <img src="https://i.imgur.com/J0CcDFw.png"></p>
+</li>
+</ol>
+<p>   <img src="https://i.imgur.com/RlFsRTJ.png"></p>
+<h2 id="四、Discord-Bot-撰寫："><a href="#四、Discord-Bot-撰寫：" class="headerlink" title="四、Discord Bot 撰寫："></a>四、Discord Bot 撰寫：</h2><p>執行 Discord Bot 指令大致分為三種方式，三種方式的程式碼撰寫都不太一樣，本次教學以關鍵字和前綴指令作為範例，其他斜線指令或者更多使用方式可以參考未來教學。</p>
+<ul>
+<li>關鍵字 - Hello, ping, say</li>
+<li>前綴指令 - $Hello, %ping, &amp;say</li>
+<li>斜線指令 - &#x2F;Hello, &#x2F;ping, &#x2F;say</li>
+</ul>
+<p>:bell: 如果電腦中沒有撰寫 Python 程式的 IDE 的話，可以參考這篇 <a target="_blank" rel="noopener" href="https://hackmd.io/@smallshawn95/vscode_write_py">Visual Studio Code 撰寫 Python 程式</a>。</p>
+<ol>
+<li><p>終端機輸入下方指令，安裝 <a target="_blank" rel="noopener" href="https://discordpy.readthedocs.io/en/stable/">discord.py</a> 模組。</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip install discord.py</span><br></pre></td></tr></table></figure>
+<p><img src="https://i.imgur.com/dhnh5GK.png"></p>
+</li>
+<li><p>回到 Bot 設置頁面，機器人名字下方有機器人的 TOKEN，如果忘記之前的 TOKEN 或者不小心外露出去讓別人知道，只要點擊 Reset Token 換新的一組 TOKEN 即可。</p>
+<p>:warning: TOKEN 是控制機器人的鑰匙，擁有者就可以操控機器人，要嚴禁保管！</p>
+<p><img src="https://i.imgur.com/Z8gOccO.png"></p>
+<p><img src="https://i.imgur.com/UCkINjA.png"></p>
+</li>
+<li><p>撰寫一個簡單功能的程式並執行程式來啟動機器人。</p>
+<ul>
+<li>關鍵字<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 導入Discord.py模組</span></span><br><span class="line"><span class="keyword">import</span> discord</span><br><span class="line"></span><br><span class="line"><span class="comment"># client是跟discord連接，intents是要求機器人的權限</span></span><br><span class="line">intents = discord.Intents.default()</span><br><span class="line">intents.message_content = <span class="literal">True</span></span><br><span class="line">client = discord.Client(intents = intents)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 調用event函式庫</span></span><br><span class="line"><span class="meta">@client.event</span></span><br><span class="line"><span class="comment"># 當機器人完成啟動</span></span><br><span class="line"><span class="keyword">async</span> <span class="keyword">def</span> <span class="title function_">on_ready</span>():</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">f&quot;目前登入身份 --&gt; <span class="subst">&#123;client.user&#125;</span>&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="meta">@client.event</span></span><br><span class="line"><span class="comment"># 當頻道有新訊息</span></span><br><span class="line"><span class="keyword">async</span> <span class="keyword">def</span> <span class="title function_">on_message</span>(<span class="params">message</span>):</span><br><span class="line">    <span class="comment"># 排除機器人本身的訊息，避免無限循環</span></span><br><span class="line">    <span class="keyword">if</span> message.author == client.user:</span><br><span class="line">        <span class="keyword">return</span></span><br><span class="line">    <span class="comment"># 新訊息包含Hello，回覆Hello, world!</span></span><br><span class="line">    <span class="keyword">if</span> message.content == <span class="string">&quot;Hello&quot;</span>:</span><br><span class="line">        <span class="keyword">await</span> message.channel.send(<span class="string">&quot;Hello, world!&quot;</span>)</span><br><span class="line"></span><br><span class="line">client.run(<span class="string">&quot;機器人的TOKEN&quot;</span>)</span><br></pre></td></tr></table></figure></li>
+<li>前綴指令<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 導入Discord.py模組</span></span><br><span class="line"><span class="keyword">import</span> discord</span><br><span class="line"><span class="comment"># 導入commands指令模組</span></span><br><span class="line"><span class="keyword">from</span> discord.ext <span class="keyword">import</span> commands</span><br><span class="line"></span><br><span class="line"><span class="comment"># intents是要求機器人的權限</span></span><br><span class="line">intents = discord.Intents.<span class="built_in">all</span>()</span><br><span class="line"><span class="comment"># command_prefix是前綴符號，可以自由選擇($, #, &amp;...)</span></span><br><span class="line">bot = commands.Bot(command_prefix = <span class="string">&quot;%&quot;</span>, intents = intents)</span><br><span class="line"></span><br><span class="line"><span class="meta">@bot.event</span></span><br><span class="line"><span class="comment"># 當機器人完成啟動</span></span><br><span class="line"><span class="keyword">async</span> <span class="keyword">def</span> <span class="title function_">on_ready</span>():</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">f&quot;目前登入身份 --&gt; <span class="subst">&#123;bot.user&#125;</span>&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="meta">@bot.command()</span></span><br><span class="line"><span class="comment"># 輸入%Hello呼叫指令</span></span><br><span class="line"><span class="keyword">async</span> <span class="keyword">def</span> <span class="title function_">Hello</span>(<span class="params">ctx</span>):</span><br><span class="line">    <span class="comment"># 回覆Hello, world!</span></span><br><span class="line">    <span class="keyword">await</span> ctx.send(<span class="string">&quot;Hello, world!&quot;</span>)</span><br><span class="line"></span><br><span class="line">bot.run(<span class="string">&quot;機器人的TOKEN&quot;</span>)</span><br></pre></td></tr></table></figure></li>
+</ul>
+</li>
+<li><p>如果終端機顯示「登入身分 –&gt; 機器人名字」和看見 Discord 成員列表有顯示機器人上線，代表以上步驟都做對。<br><img src="https://i.imgur.com/MMZKFFh.png"></p>
+<p><img src="https://i.imgur.com/jEM3h3J.png"></p>
+</li>
+<li><p>現在只要在頻道中使用關鍵字「Hello」或者「%Hello」，機器人就會回覆「Hello, world!」囉。</p>
+<ul>
+<li><p>關鍵字<br><img src="https://i.imgur.com/EC5iCom.png"></p>
+</li>
+<li><p>前綴指令<br><img src="https://i.imgur.com/fMe2Id8.png"></p>
+</li>
+</ul>
+</li>
+</ol>
+<hr>
+<p>此次教學已經結束，感謝各位看完整篇文章，希望大家都能成功製作出屬於自己的 Discord Bot！<br>上面提到授權機器人權限的部分，為了讓 Discord Bot 正常運作的成功率提高，因此全部勾選。如果有興趣想了解各個權限代表什麼的人可以自己研究看看。<br>如果自己將關鍵字和前綴指令的程式範例合併起來，會發現 Discord Bot 無法正常運作，那是因為關鍵字的 <code>on_message</code> 和前綴指令 <code>command</code> 互相抵觸到。要解決這個問題的話，需要使用 Cog 工具，可參考這篇筆者撰寫的新教學，<a target="_blank" rel="noopener" href="https://hackmd.io/@smallshawn95/python_discord_bot_cog">Python Discord Bot 進階教學 — Cog 篇</a>。</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="http://smallshawn95.github.io">SmallShawn95</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章連結: </span><span class="post-copyright-info"><a href="http://smallshawn95.github.io/Python_Discord_Bot/base/">http://smallshawn95.github.io/Python_Discord_Bot/base/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版權聲明: </span><span class="post-copyright-info">Copyright © 2023 SmallShawn95. All rights reserved.</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/Python/">Python</a><a class="post-meta__tags" href="/tags/Discord-Bot/">Discord Bot</a></div><div class="post_share"></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/shao_ji_ji/home/" title="燒雞姬 - 概述"><img class="cover" src="https://i.imgur.com/OLyEyaU.png" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">燒雞姬 - 概述</div></div></a></div><div class="next-post pull-right"><a href="/Python_Discord_Bot/cog/" title="Python Discord Bot 進階教學 — Cog 篇"><div class="cover" style="background: var(--default-bg-color)"></div><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">Python Discord Bot 進階教學 — Cog 篇</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相關推薦</span></div><div class="relatedPosts-list"><div><a href="/Python_Discord_Bot/cog/" title="Python Discord Bot 進階教學 — Cog 篇"><div class="cover" style="background: var(--default-bg-color)"></div><div class="content is-center"><div class="date"><i class="fas fa-history fa-fw"></i> 2023-11-03</div><div class="title">Python Discord Bot 進階教學 — Cog 篇</div></div></a></div><div><a href="/shao_ji_ji/home/" title="燒雞姬 - 概述"><img class="cover" src="https://i.imgur.com/OLyEyaU.png" alt="cover"><div class="content is-center"><div class="date"><i class="fas fa-history fa-fw"></i> 2023-11-03</div><div class="title">燒雞姬 - 概述</div></div></a></div></div></div><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 評論</span></div></div><div class="comment-wrap"><div><div id="utterances-wrap"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://i.imgur.com/j7vPJ8z.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">SmallShawn95</div><div class="author-info__description">Share My Life</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">4</div></a><a href="/tags/"><div class="headline">標籤</div><div class="length-num">3</div></a><a href="/categories/"><div class="headline">分類</div><div class="length-num">2</div></a></div><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/smallshawn95" target="_blank" title="Github"><i class="fa-brands fa-github"></i></a><a class="social-icon" href="mailto:smallshawn95@gmail.com" target="_blank" title="Email"><i class="fa-solid fa-envelope"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">歡迎來到 SmallShawn95's Home！</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目錄</span><span class="toc-percentage"></span></div><div class="toc-content is-expand"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%80%E3%80%81Discord-%E7%B0%A1%E4%BB%8B%EF%BC%9A"><span class="toc-number">1.</span> <span class="toc-text">一、Discord 簡介：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%8C%E3%80%81Discord-Bot-%E7%B0%A1%E4%BB%8B%EF%BC%9A"><span class="toc-number">2.</span> <span class="toc-text">二、Discord Bot 簡介：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%89%E3%80%81Discord-Bot-%E5%89%B5%E5%BB%BA%EF%BC%9A"><span class="toc-number">3.</span> <span class="toc-text">三、Discord Bot 創建：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9B%9B%E3%80%81Discord-Bot-%E6%92%B0%E5%AF%AB%EF%BC%9A"><span class="toc-number">4.</span> <span class="toc-text">四、Discord Bot 撰寫：</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/Python_Discord_Bot/cog/" title="Python Discord Bot 進階教學 — Cog 篇">Python Discord Bot 進階教學 — Cog 篇</a><time datetime="2023-11-03T15:20:00.000Z" title="發表於 2023-11-03 23:20:00">2023-11-03</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/Python_Discord_Bot/base/" title="Python Discord Bot 基礎教學">Python Discord Bot 基礎教學</a><time datetime="2023-11-03T14:48:00.000Z" title="發表於 2023-11-03 22:48:00">2023-11-03</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/shao_ji_ji/home/" title="燒雞姬 - 概述"><img src="https://i.imgur.com/OLyEyaU.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="燒雞姬 - 概述"/></a><div class="content"><a class="title" href="/shao_ji_ji/home/" title="燒雞姬 - 概述">燒雞姬 - 概述</a><time datetime="2023-06-13T02:00:00.000Z" title="發表於 2023-06-13 10:00:00">2023-06-13</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/hello-hexo/" title="Hello Hexo">Hello Hexo</a><time datetime="2023-01-20T09:00:00.000Z" title="發表於 2023-01-20 17:00:00">2023-01-20</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2022 - 2023 By SmallShawn95</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主題 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="閱讀模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="淺色和深色模式轉換"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="單欄和雙欄切換"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="設定"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目錄"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="直達評論"><i class="fas fa-comments"></i></a><button class="share" type="button" title="分享此頁" onclick="share()"><i class="fa-solid fa-share-from-square"></i></button><button id="go-up" type="button" title="回到頂部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button><button id="go-down" type="button" title="直達底部" onclick="btf.scrollToDest(document.body.scrollHeight, 500)"><i class="fas fa-arrow-down"></i></button></div></div><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜尋</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  資料庫載入中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜尋文章" type="text"/></div></div><hr/><div id="local-search-results"></div></div></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.min.js"></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js"></script><script src="/js/search/local-search.js"></script><div class="js-pjax"><script>function loadUtterances () {
+  let ele = document.createElement('script')
+  ele.setAttribute('id', 'utterances_comment')
+  ele.setAttribute('src', 'https://utteranc.es/client.js')
+  ele.setAttribute('repo', 'smallshawn95/hexo-comments')
+  ele.setAttribute('issue-term', 'pathname')
+  let nowTheme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark-blue' : 'github-light'
+  ele.setAttribute('theme', nowTheme)
+  ele.setAttribute('crossorigin', 'anonymous')
+  ele.setAttribute('async', 'true')
+  document.getElementById('utterances-wrap').insertAdjacentElement('afterbegin',ele)
+}
+
+function utterancesTheme () {
+  const iframe = document.querySelector('.utterances-frame')
+  if (iframe) {
+    const theme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark-blue' : 'github-light'
+    const message = {
+      type: 'set-theme',
+      theme: theme
+    };
+    iframe.contentWindow.postMessage(message, 'https://utteranc.es');
+  }
+}
+
+if ('Utterances' === 'Utterances' || !false) {
+  if (false) btf.loadComment(document.getElementById('utterances-wrap'), loadUtterances)
+  else loadUtterances()
+} else {
+  function loadOtherComment () {
+    loadUtterances()
+  }
+}</script></div><script src="https://cdn.bootcdn.net/ajax/libs/clipboard.js/2.0.11/clipboard.min.js"></script><script src="/js/share.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
+POWERMODE.shake = false;
+POWERMODE.mobile = false;
+document.body.addEventListener('input', POWERMODE);
+</script><script id="click-heart" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/click-heart.min.js" async="async" mobile="true"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
