@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Meme Mart | 迷因超市</title>
+    <link rel=stylesheet type="text/css" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body class="rainbow-bg">
+    <div class="marquee-container">
+        <div class="marquee-content">
+            📢 公告：本網站只有迷因是真的，其他都是假的！ | ⚠️ 警告：瀏覽本網站可能導致智商暫時性下降 | 📉 你的期末成績: 404 Not Found | 🥺 老師請給我 100 分拜託拜託
+        </div>
+    </div>
+    <nav class="navbar">
+        <div class="container nav-content">
+            <div class="site-title">
+                <span class="site-emoji">🗿</span>
+                <h1>Meme Mart</h1>
+            </div>
+            <div class="led-display">
+                <span class="led-label">Live Rate</span>
+                <div class="flex items-center gap-2">
+                    <span class="led-value" id="rate-display">LOADING...</span>
+                    <span class="animate-pulse">●</span>
+                </div>
+            </div>
+            <button onclick="toggleCart()" class="box cart-btn">
+                🛒 購物車
+                <span id="cart-count" class="cart-badge">0</span>
+            </button>
+        </div>
+    </nav>
+    <div class="container main-layout">
+        <aside class="sidebar sidebar-section">
+            <div class="box">
+                <div class="title-bar">
+                    <span>📁 迷因分類</span>
+                    <div class="window-controls">
+                        <button class="win-btn">-</button>
+                        <button class="win-btn close">x</button>
+                    </div>
+                </div>
+                <div style="padding: 1rem; background-color: #f3f4f6;">
+                    <p style="font-size: 0.875rem; color: #6b7280; margin-bottom: 0.75rem; font-weight: bold; text-align: center;">👇 請選擇你的毒藥 👇</p>
+                    <button onclick="filterProducts('all')" class="cat-btn bg-white">🌈 全部顯示 (All)</button>
+                    <button onclick="filterProducts('classic')" class="cat-btn bg-yellow">🏆 經典神獸 (Classic)</button>
+                    <button onclick="filterProducts('taiwan')" class="cat-btn bg-blue">🇹🇼 台灣迷因 (Local)</button>
+                </div>
+            </div>
+             <div class="box" style="animation: bounce 1s infinite;">
+                <div class="title-bar" style="background-color: red;">
+                    <span>⚠️ 警告</span>
+                </div>
+                <div style="padding: 1rem; text-align: center;">
+                    <p style="font-weight: bold; color: #dc2626; margin-bottom: 0.5rem;">你的期末專案還沒做完！</p>
+                    <button onclick="alert('想得美！快點去寫專案！')" style="border: 2px solid black; padding: 0.5rem 1rem; background: white; font-weight: bold; cursor: pointer; box-shadow: 2px 2px 5px rgba(0,0,0,0.2);">
+                        👉 點擊這裡解決 👈
+                    </button>
+                </div>
+            </div>
+        </aside>
+        <main class="content-area">
+            <div id="loader">
+                <div class="loader-icon animate-spin">🌀</div>
+                <p class="loader-text">正在下載網際網路...</p>
+                <p style="font-size: 0.875rem; color: #6b7280; margin-top: 0.5rem;">請勿關閉電源 (雖然這只是網頁)</p>
+            </div>
+            <div class="reviews-container" style="margin-top: 0; margin-bottom: 3rem; border-top: none; border-bottom: 4px dashed #9ca3af; padding-top: 0; padding-bottom: 2rem;">
+                <h3 class="text-center font-bold" style="font-size: 1.5rem; margin-bottom: 1.5rem; color: #1e3a8a;">
+                    📢 受害者心得
+                </h3>
+                <div id="reviews-list" class="reviews-grid">
+                    <p class="text-center" style="grid-column: span 3;">正在載入來自平行宇宙的評論...</p>
+                </div>
+            </div>
+            <div id="product-list" class="product-grid hidden">
+            </div>
+        </main>
+    </div>
+    <div id="cart-modal" class="modal-overlay hidden">
+        <div class="box modal-content">
+            <div class="title-bar">
+                <span>🛒 結帳櫃檯</span>
+                <button onclick="toggleCart()" style="background-color: #dc2626; color: white; border: none; padding: 0 5px; cursor: pointer;">X</button>
+            </div>
+            <div class="modal-body">
+                <ul id="cart-items" class="cart-list">
+                </ul>
+                <div style="border-top: 4px solid black; padding-top: 1rem;">
+                    <div class="flex justify-between items-center" style="margin-bottom: 1rem;">
+                        <span class="font-bold" style="font-size: 1.25rem;">總金額 (Total):</span>
+                        <span id="cart-total" style="font-family: monospace; font-size: 1.875rem; font-weight: 900; color: #16a34a;">$0.00</span>
+                    </div>
+                    <button onclick="checkout()" class="checkout-btn">
+                        💸 立即刷卡結束這一回合!
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
